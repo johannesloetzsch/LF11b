@@ -1,6 +1,6 @@
 [book]
 authors = ["Johannes Lötzsch"]
-language = "en"
+language = "de"
 multilingual = false
 src = "src"
 title = "LF11b: Betrieb und Sicherheit vernetzter Systeme gewährleisten"

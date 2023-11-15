@@ -1,7 +1,11 @@
 # Summary
 
 - [Ziele](./ziele.md)
+- [Grundlagen](./grundlagen.md)
 - [Analyse](./analyse.md)
+  - [Praxisbeispiele](./praxisbeispiele.md)
+  - [Handlungsempfehlung](./handlungsempfehlung.md)
 - [Planung](./planung.md)
-- [Implementierung](./implementierung)
-- [Prüfen](./pruefen)
+  - [Netzwerksicherheit](./netzwerksicherheit.md)
+- [Implementierung](./implementierung.md)
+- [Prüfen](./pruefen.md)

@@ -23,11 +23,18 @@
 * negative Innen- oder Außenwirkung
 * finanzielle Auswirkungen
 
-## Schutzbedarfskategorie
+## Schutzbedarfskategorien
 
 * Normaler Schutzbedarf
 * Hoher Schutzbedarf
 * Sehr hoher Schutzbedarf
+
+## Risikokategorien
+
+* Geringes Risiko
+* Mittelmäßiges Risiko
+* Hohes Risiko
+* Sehr hohes Risiko
 
 ### [Definition Schutzbedarfskategorien](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/Hilfsmittel/Recplast/A21_Definition_Schutzbedarfskategorien.pdf?__blob=publicationFile&v=5)
 Schadensszenario x Schutzbedarfskategorie
@@ -131,12 +138,3 @@ Auswirkungen
 
 #### [Fortführung des Sicherheitsprozesses](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_7_Risikoanalyse/Lektion_7_10/Lektion_7_10_node.html)
 
-## Schwachstellenanalyse
-
-1. IST-Analyse
-
-2. Vergleich mit Soll-Zustand
-
-3. Risikobewertung 
-
-=> potenzielle Bedrohung

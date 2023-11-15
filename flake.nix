@@ -2,7 +2,7 @@
   description = "Unterrichtsnotizen";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-21.11";
   };
 
   outputs = { self, nixpkgs, ... }:
@@ -19,7 +19,7 @@
       shellHook = ''
         mdbook-mermaid install
         mdbook build
-        touch docs/.nojekyll
+        touch book/.nojekyll
         exit
       '';
     };

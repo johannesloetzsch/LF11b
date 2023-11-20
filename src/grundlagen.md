@@ -92,6 +92,8 @@
 
 ## Grundprinzipien
 
+### [Relative Sicherheit](https://de.wikipedia.org/wiki/Sicherheit#Sicherheit_als_relativer_Zustand)
+
 ### [Defense in depth](https://en.wikipedia.org/wiki/Defense_in_depth_(computing)) / [Schweizer-Käse-Modell](https://de.wikipedia.org/wiki/Schweizer-K%C3%A4se-Modell)
 
 [![Schweizer-Käse-Modell](https://upload.wikimedia.org/wikipedia/commons/e/e8/Swiss_cheese_model_of_accident_causation.png)](https://de.wikipedia.org/wiki/Schweizer-K%C3%A4se-Modell)

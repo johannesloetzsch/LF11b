@@ -10,7 +10,7 @@ bool vergleichePins(char* pin1, char* pin2) {
 }
 
 /** Um zu verhindern, dass ein Angreifer die Pin aus dem Binary herausliest (z.B. mit `hexdump -C` oder `strings`), generieren wir diesmal eine zufällige Pin. **/
-char* generiereZufallspin(int pinLaenge, char* randomPin) {
+void generiereZufallspin(int pinLaenge, char* randomPin) {
   srand(time (NULL));
   const char erlaubteZeichen[] = "0123456789";
   char zufallszeichen;

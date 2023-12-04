@@ -9,7 +9,7 @@ bool vergleichePins(char* pin1, char* pin2) {
   return strcmp(pin1, pin2) == 0;
 }
 
-char* generiereZufallspin(int pinLaenge, char* randomPin) {
+void generiereZufallspin(int pinLaenge, char* randomPin) {
   srand(time (NULL));
   const char erlaubteZeichen[] = "0123456789";
   char zufallszeichen;
@@ -27,7 +27,7 @@ int main(void) {
   char* pinEingegeben = (char*)malloc(pinLaenge+1);
 
   /** Um einen Bruteforce-Angriff zu verhindern (bzw. seinen Erfolg unwahrscheinlich zu machen), entscheiden wir uns die Anzahl der erlaubten Versuche zu begrenzen. Nur wenn die Pin innerhalb der erlaubten Versuche korrekt eingegeben wird, soll die Eingabe gültig sein. **/
-  uint verbleibendeVersuche = 3;
+  unsigned int verbleibendeVersuche = 3;
   bool letzteEingabeWarKorrekt = false;
   while(! letzteEingabeWarKorrekt) {
     generiereZufallspin(pinLaenge, pinKorrekt);  /** In der Realität würde die Pin nicht bei jedem Versuch neu generiert, sondern aus einer Datenbank gelesen werden **/

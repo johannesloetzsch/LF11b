@@ -9,7 +9,7 @@ bool vergleichePins(char* pin1, char* pin2, int pinLaenge) {
   return strncmp(pin1, pin2, pinLaenge) == 0;  /** Um den Exploit zu vereinfachen, werden beim vergleichen der Pins nur Zeichenketten der erwarteten Längen verglichen **/
 }
 
-char* generiereZufallspin(int pinLaenge, char* randomPin) {
+void generiereZufallspin(int pinLaenge, char* randomPin) {
   srand(time (NULL));
   const char erlaubteZeichen[] = "0123456789";
   char zufallszeichen;

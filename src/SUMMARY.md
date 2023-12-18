@@ -4,6 +4,7 @@
   - [Plan](./plan.md)
   - [CTF](./ctf/ctf1/README.md)
 - [Grundlagen](./grundlagen.md)
+  - [Kryptografie](kryptografie.md)
 - [Analyse](./analyse.md)
   - [Praxisbeispiele](./praxisbeispiele.md)
   - [Handlungsempfehlung](./handlungsempfehlung.md)

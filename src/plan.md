@@ -9,7 +9,7 @@
       * Integer Overflow
     * Grundlagen IT-Sicherheit
       * Datenschutz
-      * Verbreitete Ursachen für Sicherheitsprobleme (Angriffsvektoren)
+      * Verbreitete Ursachen für Sicherheitsprobleme (Angriffsvektoren/Bedrohungsszenarien)
       * Technische Maßnahmen, Organisatorische Maßnahmen
     * Grundprinzipien
       * Relative Sicherheit

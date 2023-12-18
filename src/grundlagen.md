@@ -11,7 +11,7 @@
 * [Datenschutz-Grundverordnung (DSGVO) / General Data Protection Regulation (GDPR)](https://www.bmj.de/DE/themen/digitales/DSGVO/DSGVO_node.html)
 
 
-## Verbreitete Ursachen für Sicherheitsprobleme (Angriffsvektoren)
+## Verbreitete Ursachen für Sicherheitsprobleme (Angriffsvektoren/Bedrohungsszenarien)
 
 ### „[Layer 8-10 Probleme](https://de.wikipedia.org/wiki/Layer_8)“
 
@@ -27,7 +27,7 @@
 
 ##### **Identitätsmissbrauch**
 
-### **Digitale Erpressung** (Randsomeware)
+### **Digitale Erpressung** (Ransomware)
 
 ### **Sabotage** / **Vandalismus**
 
@@ -53,7 +53,7 @@
 
 ### [Resource exhaustion](https://en.wikipedia.org/wiki/Resource_exhaustion_attack)
 
-#### Denial of Service
+#### (Distributed) Denial of Service
 
 ##### Amplification Attack
 

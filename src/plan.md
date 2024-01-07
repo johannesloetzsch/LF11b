@@ -31,3 +31,13 @@
     * Risikobehandlung
 
   * Erlaubte Hilfsmittel: keine
+
+* Mi 17.01. 1.Doppelstunde **Klausur: doppelte Wertung, 90min, handschriftlich**
+  * Inhalte:
+    * Grundlagen Kryptografie
+    * Netzwerksicherheit
+      * Firewall, NAT 
+      * VLAN
+      * VPN
+      * Radius
+    * Technische und organisatorische Maßnahmen

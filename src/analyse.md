@@ -93,7 +93,7 @@ Zusätzlicher Analysebedarf falls:
 
 [![von dem Server hängt die ganze Produktion ab](https://www.bsi.bund.de/SharedDocs/Bilder/DE/BSI/Themen/grundschutzdeutsch/Webkurs2018/Abb_7_00_Illustration.png?__blob=normal&v=1)](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_7_Risikoanalyse/Lektion_7_node.html)
 
-* Gefähdungsübersicht erstellen
+* Gefährdungsübersicht erstellen
 * Risiken einstufen
 * Risiken behandeln
 * Sicherheitskonzept konsolidieren

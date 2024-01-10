@@ -47,8 +47,15 @@ sudo ip link add link wlan0 name wlan0.200 type vlan id 200
 
 ## VPN
 
-## Proxy, ReverseProxy
-### SSL-Offloading/TLS-Termination
+## Proxy
+* Caching
+* Filtern -> Verfügbarkeit (+ Versuch des Schutzes vor schädlichen Inhalten)
+* Kontrolle -> Vertraulichkeit
+* Manipulation -> Integrität
+  * z.B. [„Upside-Down-inTernet“](https://pete.ex-parrot.com/upside-down-ternet.html)
+
+### ReverseProxy
+#### SSL-Offloading/TLS-Termination
 
 ## Radius
 

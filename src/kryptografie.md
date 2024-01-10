@@ -47,6 +47,6 @@ sequenceDiagram
 Anforderungen:
 * Feste Länge der Hash-Werte
 * Einweg-Funktion („Falltür-Funktion“)
-* Kollisionsfreiheit
+* „Kollisionsfreiheit“ / „Kollisionsresistenz“
 
 ![Merkle-Damgård-Konstruktion](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/MerkleDamgaard.svg/1920px-MerkleDamgaard.svg.png)

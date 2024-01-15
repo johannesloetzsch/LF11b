@@ -4,6 +4,15 @@
 
 ### [iptables](https://wiki.ubuntuusers.de/iptables/)
 
+#### [Beispielkonfiguration für Clients](https://www.cyberciti.biz/tips/linux-iptables-examples.html)
+
+```bash
+iptables -P FORWARD DROP
+iptables -P OUTPUT ACCEPT
+iptables -A INPUT -m state --state NEW,ESTABLISHED -j ACCEPT
+iptables -P INPUT DROP
+```
+
 ### NAT
 (**N**etwork**A**ddress**T**ranslation)
 -> NAPT (**N**etwork**A**ddress**P**ort**T**ranslation)
@@ -15,6 +24,10 @@
   * 1:1 NAT
   * No NAT
 
+```bash
+echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
+iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+```
 
 
 ### VLAN

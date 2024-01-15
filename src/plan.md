@@ -37,7 +37,7 @@
     * Grundlagen Kryptografie
     * Netzwerksicherheit
       * Firewall, NAT 
-      * VLAN
+      * ~~VLAN~~
       * VPN
-      * Radius
+      * Radius (3A)
     * Technische und organisatorische Maßnahmen

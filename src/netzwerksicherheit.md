@@ -29,6 +29,7 @@ echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
 iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 ```
 
+![SNAT](https://upload.wikimedia.org/wikipedia/commons/c/c7/NAT_Concept-en.svg)
 
 ### VLAN
 

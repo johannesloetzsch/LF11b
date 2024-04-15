@@ -1,5 +1,30 @@
 # Netzwerksicherheit
 
+## [Zero Trust Security (ZTA/ZTNA)](https://de.wikipedia.org/wiki/Zero_Trust_Security)
+
+## [SSL/TLS](https://de.wikipedia.org/wiki/Transport_Layer_Security) [(vereinfacht)](https://de.wikipedia.org/wiki/Transport_Layer_Security#/media/Datei:SSL_handshake_with_two_way_authentication_with_certificates.svg)
+
+```mermaid
+sequenceDiagram
+    participant Client
+    participant Server
+    Note right of Client: Kennt Publik Keys von Root-CAs
+    Client->>Server: Verbindungsanfrage
+    Note left of Server: Hat Asymmetrisches Schlüsselpaar
+    Note left of Server: Publik Key ist via Zertifikatskette von Root-CA unterschrieben
+    Server->>Client: Übergabe des Publik Keys + Zertifikatskette
+    Client->>Client: Überprüfung des Zertifikats mit CA Publik Key
+    Client->>Client: Generierung AES Session Key *
+    Client->>Client: Verschlüsselung des AES Session Key mit dem Publik Key des Servers
+    Client->>Server: Übertragung des verschlüsselten AES Session Keys
+    Server->>Server: Entschlüsselung AES Session Keys
+    Server->Client: mit AES Session Key verschlüsselte Datenübertragung
+```
+
+> `*` bzw. [Diffie-Hellman-Schlüsselaustausch](https://de.wikipedia.org/wiki/Transport_Layer_Security#TLS_Handshake_Protocol)
+
+> IHK-Prüfung Winter 2021/22
+
 ## Firewalls
 
 ### [iptables](https://wiki.ubuntuusers.de/iptables/)
@@ -31,6 +56,9 @@ iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 
 ![SNAT](https://upload.wikimedia.org/wikipedia/commons/c/c7/NAT_Concept-en.svg)
 
+
+> IHK Abschlussprüfung Winter 2023/24 Analyse+Entwicklung Aufgabe 2
+
 ### VLAN
 
 * Access-Mode, Trunk-Mode, Hybrid-Mode
@@ -58,6 +86,8 @@ sudo modprobe 8021q
 ### Virtuelles Interface für VLAN-ID 200 anlegen:
 sudo ip link add link wlan0 name wlan0.200 type vlan id 200
 ```
+
+> IHK Abschlussprüfung Winter 2023/24 Analyse+Entwicklung Aufgabe 3
 
 ## VPN
 

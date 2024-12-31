@@ -30,3 +30,8 @@
 ## Marine
 ### [Feuerleitsysteme](https://media.ccc.de/v/23C3-1429-de-fnord_jahresrueckblick#t=1157) <!-- Feature creep  -->
 ### [SMCS NG (Submarine Command System New Generation)](https://en.wikipedia.org/wiki/Submarine_Command_System#SMCS-NG_as_first_deployment_of_%22Windows_for_Warships%22)
+
+## Aktuell
+### [Volksdaten von Volkswagen](https://media.ccc.de/v/38c3-wir-wissen-wo-dein-auto-steht-volksdaten-von-volkswagen)
+### [Elektronische Patientenakte](https://media.ccc.de/v/38c3-konnte-bisher-noch-nie-gehackt-werden-die-elektronische-patientenakte-kommt-jetzt-fr-alle) [.](https://media.ccc.de/v/36c3-10595-hacker_hin_oder_her_die_elektronische_patientenakte_kommt) [.](https://media.ccc.de/v/38c3-die-elektronische-patientenakte-epa-a-legal-instruction-trap)
+### [Wahlsoftware](https://media.ccc.de/v/38c3-der-thring-test-fr-wahlsoftware) [.](https://media.ccc.de/v/23C3-1423-en-we_dont_trust_voting_computers)

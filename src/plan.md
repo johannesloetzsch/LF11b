@@ -60,6 +60,7 @@ gantt
 
 * [ ] Einführung: „Theorie vs. Praxis“ -> Beispiel
 * [ ] Grundlagen
+  * [ ] Praxisfragen
   * [ ] Threat Models
 * [ ] Planung
   * [ ] Endpoint Security

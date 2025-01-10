@@ -108,8 +108,14 @@
 
 
 ## [Schlangenöl](https://de.wikipedia.org/wiki/Schlangen%C3%B6l)
+
 ![Schlangenöl](http://cdn.history.com/sites/2/2017/09/snake_oil_DHNWXP.jpg)
 [![Schlangenöl](https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Snake-oil_salesman_Professor_Thaddeus_Schmidlap_at_Enchanted_Springs_Ranch%2C_Boerne%2C_Texas%2C_USA_28650a.jpg/800px-Snake-oil_salesman_Professor_Thaddeus_Schmidlap_at_Enchanted_Springs_Ranch%2C_Boerne%2C_Texas%2C_USA_28650a.jpg)](https://de.wikipedia.org/wiki/Schlangen%C3%B6l)
+
+### IT-Sicherheit vs. CYBER-Security
+[/ˈtsaobɐ̯r/](https://de.bab.la/aussprache/deutsch/zauber)
+
+![Cybersicherheitsarchitektur](https://cdn.netzpolitik.org/wp-upload/2020/06/SNV-Cybersicherheitsarchitektur-1536x864.jpg)
 
 > Frage 1: Was ist „CrowdStrike“?
 <!-- „Real men test in production… The truth about the CrowdStrike disaster“ https://www.youtube.com/watch?v=H9RSeDUdkCA -->

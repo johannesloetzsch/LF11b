@@ -1,6 +1,6 @@
 # Netzwerksicherheit
 
-## [Zero Trust Security (ZTA/ZTNA)](https://de.wikipedia.org/wiki/Zero_Trust_Security)
+## [Zero Trust Security / Zero Trust Architektur (ZTA) / Zero Trust Network Access (ZTNA)](https://de.wikipedia.org/wiki/Zero_Trust_Security)
 
 ## [SSL/TLS](https://de.wikipedia.org/wiki/Transport_Layer_Security) [(vereinfacht)](https://de.wikipedia.org/wiki/Transport_Layer_Security#/media/Datei:SSL_handshake_with_two_way_authentication_with_certificates.svg)
 

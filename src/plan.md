@@ -56,18 +56,55 @@ gantt
   Projektpräsentationen             :crit, 2025-03-14, 4h
 ```
 
-## Leistungskontrollen (2023)
-* **Klausur: doppelte Wertung, 90min, handschriftlich**
+## Unterrichtsinhalte 13.1. (8 Stunden)
+
+* [ ] Einführung: „Theorie vs. Praxis“ -> Beispiel
+* [ ] Grundlagen
+  * [ ] Threat Models
+* [ ] Planung
+  * [ ] Endpoint Security
+  * [ ] TOM
+
+## Unterrichtsinhalte 15.1. (6 Stunden)
+
+* [ ] Auswertung SOL vom 10.1. (wahlweise Vorträge)
+  * [ ] Gemeinsame Schutzbedarfs- und Risikoanalyse
+  * [ ] Prüfung / Bewertung / Abgleich mit „Grundlagen“-Empfehlungen
+* [ ] Weitere Praxisbeispiele
+* [ ] Handlungsempfehlung
+
+## Bonus
+
+* [ ] Hackerethik (vs. [202c StGB](https://www.gesetze-im-internet.de/stgb/__202c.html))
+* [ ] CTF
+* [ ] „Live Hacks“ z.B.
+  * [ ] SQL-Injection
+  * [ ] Netzwerksicherheit
+    * [ ] MITM-Proxy
+    * [ ] NMap
+    * [ ] Wireshark / TCPdump
+  * [ ] Binary Exploitation
+* [ ] Grundlagen Kryptografie
+
+
+## Leistungskontrollen
+* **Fr 10.01. Klausur: doppelte Wertung, 90min, handschriftlich**
   * Erlaubte Hilfsmittel: keine
   * Inhalte:
-    * Binäres Rechnen
-      * umrechnen Hexadezimal, Binär, Dezimal
-      * binäre Grundoperationen: Not/And/Or/Xor, binäre Addition
-      * Integer Overflow
+    * Netzwerksicherheit
+      * Firewall, NAT 
+      * VLAN
+      * VPN
+      * Radius (3A)
+
+
+* **Fr 17.01. Klausur: doppelte Wertung, 90min, handschriftlich**
+  * Erlaubte Hilfsmittel: keine
+  * Inhalte:
     * Grundlagen IT-Sicherheit
       * Datenschutz
       * Verbreitete Ursachen für Sicherheitsprobleme (Angriffsvektoren/Bedrohungsszenarien)
-      * Technische Maßnahmen, Organisatorische Maßnahmen
+      * Technische und organisatorische Maßnahmen
     * Grundprinzipien
       * Relative Sicherheit
       * Defense in depth / Schweizer-Käse-Modell
@@ -86,14 +123,4 @@ gantt
       * Häufigkeit, Auswirkungen
       * Risikokategorien
     * Risikobehandlung
-
-* **Klausur: doppelte Wertung, 90min, handschriftlich**
-  * Erlaubte Hilfsmittel: keine
-  * Inhalte:
-    * Grundlagen Kryptografie
-    * Netzwerksicherheit
-      * Firewall, NAT 
-      * VLAN
-      * VPN
-      * Radius (3A)
-    * Technische und organisatorische Maßnahmen
+    * ~~Grundlagen Kryptografie~~

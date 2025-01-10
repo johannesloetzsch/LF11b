@@ -110,3 +110,23 @@
 ## [Schlangenöl](https://de.wikipedia.org/wiki/Schlangen%C3%B6l)
 ![Schlangenöl](http://cdn.history.com/sites/2/2017/09/snake_oil_DHNWXP.jpg)
 [![Schlangenöl](https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Snake-oil_salesman_Professor_Thaddeus_Schmidlap_at_Enchanted_Springs_Ranch%2C_Boerne%2C_Texas%2C_USA_28650a.jpg/800px-Snake-oil_salesman_Professor_Thaddeus_Schmidlap_at_Enchanted_Springs_Ranch%2C_Boerne%2C_Texas%2C_USA_28650a.jpg)](https://de.wikipedia.org/wiki/Schlangen%C3%B6l)
+
+> Frage 1: Was ist „CrowdStrike“?
+<!-- „Real men test in production… The truth about the CrowdStrike disaster“ https://www.youtube.com/watch?v=H9RSeDUdkCA -->
+<!-- https://clownstrike.lol/ -->
+
+> Frage 2a: Was ist „Kaspersky“?  
+> Frage 2b: Was sollte man über Kaspersky wissen?  
+> Frage 2c: Welche Kaspersky Produkte werden für US-Nutzer empfohlen?  
+<!-- https://en.wikipedia.org/wiki/Kaspersky_and_the_Russian_government -->
+
+> Frage 3a: Was haben CVE-2024-7479, CVE-2024-52940 und CVE-2024-12754 gemeinsam?  
+> Frage 3b: Wieviele verschiedene Remote-Access-Tools haben Unternehmen im Jahr 2024 durchschnittlich eingesetzt?  
+> Frage 3c: Was ist Telnet?
+<!-- klartext reden ;) -->
+
+> Frage 4a: Wie hilft KI Systeme sicherer zu machen?  
+> Frage 4b: Wie hilft KI gegen den Klimawandel?  
+> Frage 4c: Welches Geschäftsmodell hat OpenAI?  
+<!-- Sam Altman on how he plans to generate revenue https://www.youtube.com/watch?v=gjQUCpeJG1Y -->
+<!-- https://media.ccc.de/v/38c3-klimaschdlich-by-design-die-kologischen-kosten-des-ki-hypes -->

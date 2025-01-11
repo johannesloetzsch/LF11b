@@ -91,7 +91,7 @@ sudo ip link add link wlan0 name wlan0.200 type vlan id 200
 
 > IHK Abschlussprüfung Winter 2023/24 Analyse+Entwicklung Aufgabe 3
 
-## VPN
+## [VPN](vpn.md)
 
 ## Proxy
 * Caching

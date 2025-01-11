@@ -14,5 +14,6 @@
   - [Handlungsempfehlung](./handlungsempfehlung.md)
 - [Planung](./planung.md)
   - [Netzwerksicherheit](./netzwerksicherheit.md)
+    - [VPN](./vpn.md)
 - [Implementierung](./implementierung.md)
 - [Prüfen](./pruefen.md)

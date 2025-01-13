@@ -1,4 +1,7 @@
 # [Hackerethik](https://www.ccc.de/de/hackerethik)
+
+[![schneeschrauber-hack](img/schneeschrauber.jpg)](https://media.c3d2.de/u/astro/m/schneeschrauber/)
+
 Die ethischen Grundsätze des Hackens – Motivation und Grenzen:
 
 * Der Zugang zu Computern und allem, was einem zeigen kann, wie diese Welt funktioniert, sollte unbegrenzt und vollständig sein.

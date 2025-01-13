@@ -25,10 +25,10 @@ gantt
  section 6h Mi 08.01.
   Theorie                           :2025-01-08, 6h
  section 5h Do 09.01.
-  Wiederholung für Klassenarbeit    :2025-01-09, 5h
+  (Wiederholung für Klassenarbeit)  :2025-01-09, 5h
  section 4h Fr 10.01.
-  Klassenarbeit                     :crit, 2025-01-09, 2h
-  SOL Projektidee, Schutzbedarfs- und Risikoanalyse       :crit, 2025-01-09, 2h
+  (Klassenarbeit)                   :crit, 2025-01-09, 2h
+  SOL Praxisbeispiel                :crit, 2025-01-09, 2h
  section 8h Mo 13.01.
   Theorie                           :2025-01-13, 8h
  section 6h Mi 15.01.

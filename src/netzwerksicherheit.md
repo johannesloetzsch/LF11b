@@ -27,18 +27,7 @@ sequenceDiagram
 
 > IKH-Prüfung IDS HTTPS-Entschlüsselung
 
-## Firewalls
-
-### [iptables](https://wiki.ubuntuusers.de/iptables/)
-
-#### [Beispielkonfiguration für Clients](https://www.cyberciti.biz/tips/linux-iptables-examples.html)
-
-```bash
-iptables -P FORWARD DROP
-iptables -P OUTPUT ACCEPT
-iptables -A INPUT -m state --state NEW,ESTABLISHED -j ACCEPT
-iptables -P INPUT DROP
-```
+## [Firewalls](firefalls.md)
 
 ### NAT
 (**N**etwork**A**ddress**T**ranslation)

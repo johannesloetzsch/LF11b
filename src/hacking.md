@@ -13,3 +13,4 @@ Die ethischen Grundsätze des Hackens – Motivation und Grenzen:
 * Mülle nicht in den Daten anderer Leute.
 * Öffentliche Daten nützen, private Daten schützen.
 
+## [Sicherheitslücke gefunden... und nun?](https://media.ccc.de/v/38c3-sicherheitslcke-gefunden-und-nun)

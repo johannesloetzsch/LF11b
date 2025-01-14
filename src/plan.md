@@ -32,12 +32,14 @@ gantt
  section 8h Mo 13.01.
   Theorie                           :2025-01-13, 8h
  section 6h Mi 15.01.
-  Theorie                           :2025-01-15, 6h
+  Exkursion FHD                     :t1, 2025-01-15, 2h
+  Theorie                           :after t1, 4h
  section 3h Do 16.01.
-  Wiederholung für Klassenarbeit    :2025-01-16, 3h
- section 4h Fr 17.01.
-  Klassenarbeit                     :crit, 2025-01-17, 2h
-  SOL Schutzmaßnahmen planen        :crit, 2025-01-17, 2h
+  Theorie                           :2025-01-16, 3h
+ section 6h Fr 17.01.
+  Klassenarbeit                     :crit, t2, 2025-01-17, 2h
+  Theorie                           :t3, after t2, 2h
+  SOL Schutzmaßnahmen planen        :crit, after t3, 2h
 ```
 
 ```mermaid
@@ -46,9 +48,11 @@ gantt
  dateFormat YYYY-MM-DD
  axisFormat %d.%m.
  section 6h Mo 03.03.
+  Wiederholung für Klassenarbeit    :2025-03-03, 6h
   Praxis                            :2025-03-03, 6h
  section 5h Mi 05.03.
-  Praxis                            :2025-03-05, 5h
+  Klassenarbeit                     :crit, t1, 2025-03-05, 2h
+  Praxis                            :after t1, 3h
  section 4h Fr 07.03.
   Praxis                            :2025-03-07, 2h
   SOL Projektabschluss & Bewerten des erreichten Sicherheitsniveaus :crit, 2025-03-07, 2h
@@ -58,25 +62,33 @@ gantt
 
 ## Unterrichtsinhalte 13.1. (8 Stunden)
 
-* [ ] Einführung: „Theorie vs. Praxis“ -> Beispiel
-* [ ] Grundlagen
+* [x] Wiederholung/Vertiefung Firewall
+* [x] Einführung: „Theorie vs. Praxis“ -> Beispiel
+* [.] Grundlagen
   * [ ] Praxisfragen
   * [ ] Threat Models
-* [ ] Planung
-  * [ ] Endpoint Security
-  * [ ] TOM
 
-## Unterrichtsinhalte 15.1. (6 Stunden)
+## Unterrichtsinhalte 15.1. (4 Stunden)
 
 * [ ] Auswertung SOL vom 10.1. (wahlweise Vorträge)
   * [ ] Gemeinsame Schutzbedarfs- und Risikoanalyse
   * [ ] Prüfung / Bewertung / Abgleich mit „Grundlagen“-Empfehlungen
-* [ ] Weitere Praxisbeispiele
+* [ ] Wiederholung/Vertiefung VPN
+
+## Unterrichtsinhalte 16.1. (3 Stunden)
+
+* [.] Grundlagen
+  * [ ] Praxisfragen
 * [ ] Handlungsempfehlung
+* [ ] Planung
+  * [ ] Endpoint Security
+  * [ ] TOM
+
 
 ## Bonus
 
-* [ ] Hackerethik (vs. [202c StGB](https://www.gesetze-im-internet.de/stgb/__202c.html))
+* [ ] Weitere Praxisbeispiele
+* [x] Hackerethik (vs. [202c StGB](https://www.gesetze-im-internet.de/stgb/__202c.html))
 * [ ] CTF
 * [ ] „Live Hacks“ z.B.
   * [ ] SQL-Injection
@@ -89,7 +101,7 @@ gantt
 
 
 ## Leistungskontrollen
-* **Fr 10.01. Klausur: doppelte Wertung, 90min, handschriftlich**
+* **Fr 17.01. Klausur: doppelte Wertung, 90min, handschriftlich**
   * Erlaubte Hilfsmittel: keine
   * Inhalte:
     * Netzwerksicherheit
@@ -99,7 +111,7 @@ gantt
       * Radius (3A)
 
 
-* **Fr 17.01. Klausur: doppelte Wertung, 90min, handschriftlich**
+* **Fr 05.03. (?) Klausur: doppelte Wertung, 90min, handschriftlich**
   * Erlaubte Hilfsmittel: keine
   * Inhalte:
     * Grundlagen IT-Sicherheit

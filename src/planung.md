@@ -2,9 +2,9 @@
 
 [![Umsetzungsplanung](https://www.bsi.bund.de/SharedDocs/Bilder/DE/BSI/Themen/grundschutzdeutsch/Webkurs2018/Abb_8_00_Illustration.png?__blob=normal&v=1)](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_8_Umsetzungsplanung/Lektion_8_node.html)
 
-> Ein funktionierendes Sicherheitsmanagement muss in die existierenden Managementstrukturen jeder Institution eingebettet werden.  
+> „Ein funktionierendes Sicherheitsmanagement muss in die existierenden Managementstrukturen jeder Institution eingebettet werden.  
 > Daher ist es praktisch nicht möglich, eine für jede Institution unmittelbar anwendbare Organisationsstruktur für das Sicherheitsmanagement anzugeben.  
-> Vielmehr werden **häufig Anpassungen an spezifische Gegebenheiten erforderlich** sein  
+> Vielmehr werden **häufig Anpassungen an spezifische Gegebenheiten erforderlich** sein“  
 > *\[[ISMS.1 Sicherheitsmanagement](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium/IT_Grundschutz_Kompendium_Edition2023.pdf?__blob=publicationFile&v=4#download=1)\]*
 
 [![Risikobehandlung](https://www.bsi.bund.de/SharedDocs/Bilder/DE/BSI/Themen/grundschutzdeutsch/Webkurs2018/Abb_7_09_RisikenBehandeln.png?__blob=normal&v=1)](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_7_Risikoanalyse/Lektion_7_09/Lektion_7_09_node.html)
@@ -39,7 +39,13 @@
     * Geschäftsführung/Management
     * externe Sicherheitsexperten
   * **ISO 27001 Zertifizierung**
-    
+
+> „Die umfangreichen Informationen rund um IT-Grundschutz ersetzen nicht den **gesunden Menschenverstand**.  
+> Informationssicherheit zu **verstehen, umzusetzen und zu leben, sollte Priorität haben**.  
+> Das IT-Grundschutz-Kompendium bietet zu vielen Aspekten eine Menge an Informationen und Empfehlungen.  
+> Bei deren Bearbeitung sollte immer im Auge behalten werden, dass aus diesen die für die jeweilige Institution und ihre Rahmenbedingungen geeigneten Sicherheitsanforderungen ausgewählt und angepasst werden. […]  
+> Weder die Anforderungen der Bausteine des IT-Grundschutz-Kompendiums noch die Maßnahmen der Umsetzungshinweise sollten als pure Checklisten zur Statusfeststellung genutzt werden, sondern **mit Augenmaß an die individuellen Bedingungen angepasst** werden.“  
+> *\[[BSI-Standard 200-2: IT-Grundschutz-Methodik](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/BSI_Standards/standard_200_2.html)\]*
 
 #### *BSI-Standard 200-3*: [Risikoanalyse auf der Basis von IT-Grundschutz](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/BSI_Standards/standard_200_3.html)
 * vereinfachtes Verfahren zur Risikoanalyse
@@ -54,7 +60,7 @@
 
 ### [IT-Grundschutz-Kompendium](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium/IT_Grundschutz_Kompendium_Edition2023.pdf?__blob=publicationFile&v=4#download=1)
 
-#### 47 Elementare Gefährdungen -> IT-Grundschutz-Bausteine
+#### 47 Elementare Gefährdungen -> [IT-Grundschutz-Bausteine](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/IT-Grundschutz-Bausteine/Bausteine_Download_Edition_node.html)
 
 ##### Prozess-Bausteine (Organisatorische Maßnahmen)
 
@@ -76,7 +82,7 @@
 
 | Baustein | Typ | Entbehrlich | Begründung für Entbehrlichkeit | Umsetzung | Umsetzung bis | Verantwortlich | Bemerkungen / Begründung für Nicht-Umsetzung | Kostenschätzung |
 | -------- | --- | ----------- | ------------------------------ | --------- | ------------- | -------------- | -------------------------------------------- | --------------- |
-| ID+Titel+Inhalt | Basis/Standart/Normal | Ja/Nein | …         | Ja/Teilweise/Nein | Datum | …              | …                                            | …               |
+| ID+Titel+Inhalt | Basis/Standart/Hoch | Ja/Nein | …           | Ja/Teilweise/Nein | Datum | …              | …                                            | …               |
 
 
 ## Endpoint Security
@@ -92,6 +98,18 @@
 * SYS.2.2.3 Clients unter Windows
 * SYS.2.3 Clients unter Linux und Unix
 * SYS.2.4 Clients unter macOS
+
+> **SOL:**  
+> 1. Beschreiben Sie ein einfaches IT-System, dass sie auf Basis des IT-Grundschutzes absichern möchten.  
+> 2. Wie schätzen Sie den [Schutzbedarf](analyse.md#schutzbedarfskategorien) für das System ein?  
+> Hinweis: Für die SOL wird keine vollständige Schutzbedarfsfeststellung erwartet.
+> 3. Begründen Sie, ob ein zusätzlicher Analysebedarf besteht, so dass eine [Risikoanalyse](analyse.md#Risikoanalyse) durchgeführt werden sollte.
+> 4. Wählen Sie die auf das abzusichernde System zutreffenden [System-Bausteine aus dem IT-Grundschutz-Kompendium](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium/IT_Grundschutz_Kompendium_Edition2023.pdf?__blob=publicationFile&v=4#download=1) aus.
+> 5. Verstehen Sie die für ihr System relevanten Bausteine.
+> 6. Laden Sie sich die passende(n) [Checkliste(n)](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium/checklisten_2023.zip?__blob=publicationFile&v=4) herunter.
+> 7. Füllen Sie die in der Checkliste die Spalten „Entbehrlich“ und „Begründung für Entbehrlichkeit“ aus.
+
+
 
 ### Physische Absicherung von Endgeräten
 

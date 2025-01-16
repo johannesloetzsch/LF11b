@@ -76,9 +76,9 @@ gantt
 
 ## Unterrichtsinhalte 16.1. (3 Stunden) + März (?)
 
-* [ ] Wiederholung/Vertiefung [VPN](vpn.md)
+* [x] Wiederholung/Vertiefung [VPN](vpn.md)
 * [ ] Planung
-  * [ ] [TOM](tom.md)
+  * [x] [TOM](tom.md)
   * [ ] [Endpoint Security](planung.md)
 * [.] Grundlagen
   * [ ] Praxisfragen

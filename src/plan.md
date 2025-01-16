@@ -68,21 +68,21 @@ gantt
   * [ ] Praxisfragen
   * [ ] Threat Models
 
-## Unterrichtsinhalte 15.1. (4 Stunden)
+## Unterrichtsinhalte 15.1. (~~6~~ 3 Stunden)
 
-* [ ] Auswertung SOL vom 10.1. (wahlweise Vorträge)
+* [x] Auswertung SOL vom 10.1. (wahlweise Vorträge)
   * [ ] Gemeinsame Schutzbedarfs- und Risikoanalyse
   * [ ] Prüfung / Bewertung / Abgleich mit „Grundlagen“-Empfehlungen
-* [ ] Wiederholung/Vertiefung VPN
 
-## Unterrichtsinhalte 16.1. (3 Stunden)
+## Unterrichtsinhalte 16.1. (3 Stunden) + März (?)
 
+* [ ] Wiederholung/Vertiefung [VPN](vpn.md)
+* [ ] Planung
+  * [ ] [TOM](tom.md)
+  * [ ] [Endpoint Security](planung.md)
 * [.] Grundlagen
   * [ ] Praxisfragen
 * [ ] Handlungsempfehlung
-* [ ] Planung
-  * [ ] Endpoint Security
-  * [ ] TOM
 
 
 ## Bonus

@@ -48,16 +48,16 @@ gantt
  dateFormat YYYY-MM-DD
  axisFormat %d.%m.
  section 6h Mo 03.03.
-  Wiederholung für Klassenarbeit    :2025-03-03, 6h
-  Praxis                            :2025-03-03, 6h
+  Erklärung Praxisprojekt + Wiederholung :t1, 2025-03-03, 2h
+  Planung Praxisprojekt             :after t1, 4h
  section 5h Mi 05.03.
-  Klassenarbeit                     :crit, t1, 2025-03-05, 2h
-  Praxis                            :after t1, 3h
+  Praxisprojekt                     :2025-03-05, 5h
  section 4h Fr 07.03.
-  Praxis                            :2025-03-07, 2h
+  Praxisprojekt + Wiederholung      :2025-03-07, 2h
   SOL Projektabschluss & Bewerten des erreichten Sicherheitsniveaus :crit, 2025-03-07, 2h
  section 4h Fr 14.03.
-  Projektpräsentationen             :crit, 2025-03-14, 4h
+  Klassenarbeit                     :crit, t2, 2025-03-14, 2h
+  Projektpräsentationen             :crit, after t2, 2h
 ```
 
 ## Unterrichtsinhalte 13.1. (8 Stunden)
@@ -111,29 +111,32 @@ gantt
       * Radius (3A)
 
 
-* **Fr 05.03. (?) Klausur: doppelte Wertung, 90min, handschriftlich**
-  * Erlaubte Hilfsmittel: keine
+* **Fr 14.03. Klausur: doppelte Wertung, 90min, handschriftlich**
+  * Erlaubte Hilfsmittel: A4 Factsheet einseitig
   * Inhalte:
-    * Grundlagen IT-Sicherheit
+    * [Grundlagen IT-Sicherheit](grundlagen.md)
       * Datenschutz
       * Verbreitete Ursachen für Sicherheitsprobleme (Angriffsvektoren/Bedrohungsszenarien)
-      * Technische und organisatorische Maßnahmen
-    * Grundprinzipien
+      * **[Technische und organisatorische Maßnahmen](tom.md)**
+    * **Grundprinzipien**
       * Relative Sicherheit
       * Defense in depth / Schweizer-Käse-Modell
       * KISS-Prinzip / „teile und herrsche“
       * Secure by design, Technischer Datenschutz
       * Kerckhoffs’ Prinzip
-    * Grundlegende Definitonen nach BSI-Grundschutz
-      * Zielobjekte für Schutzbedarfsfeststellung
-      * Schutzziele (= Grundwerte)
-      * Schadensszenarien
-      * Schutzbedarfskategorien
+    * [Grundlegende Definitonen nach BSI-Grundschutz](analyse.md)
+      * **Zielobjekte für Schutzbedarfsfeststellung**
+      * **Schutzziele (= Grundwerte)**
+      * **Schadensszenarien**
+      * **Schutzbedarfskategorien**
     * Schutzbedarfsanalyse, Schutzbedarfsmatrix
-    * Risikoanalyse
-      * Elementare Gefährdungen
-      * Risikobewertung
+    * **Risikoanalyse**
+      * **Elementare Gefährdungen**
+      * **Risikobewertung**
       * Häufigkeit, Auswirkungen
       * Risikokategorien
-    * Risikobehandlung
+    * **[Risikobehandlung](planung.md)**
     * ~~Grundlagen Kryptografie~~
+
+* **Projektarbeit**: zwei kleine Noten (Projektergebnis + Mitarbeit)
+  * Vorlage: [pdf](material/projektarbeit_lf11b.pdf), [odt](material/projektarbeit_lf11b.odt)

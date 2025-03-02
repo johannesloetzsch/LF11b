@@ -30,8 +30,12 @@
 ### [SMCS NG (Submarine Command System New Generation)](https://en.wikipedia.org/wiki/Submarine_Command_System#SMCS-NG_as_first_deployment_of_%22Windows_for_Warships%22)
 
 ## Supply Chain Security
-### [Exploding pagers](https://www.youtube.com/watch?v=1bvvo46jYFU)
+
 ### [Supply chain system failures @Iraq](https://www.computerworld.com/article/2566843/supply-chain-system-failures-hampered-army-units-in-iraq.html) <!-- SAP US Army -->
+
+### [Exploding pagers](https://www.youtube.com/watch?v=1bvvo46jYFU)
+
+### [Linux Says “Goodbye, Russia"](https://youtu.be/u4PMwpMGTdY?si=ScJyXLhc3tJ6rYIx)
 
 ## [Globale Überwachung und Spionage?!](https://de.wikipedia.org/wiki/Globale_%C3%9Cberwachungs-_und_Spionageaff%C3%A4re)
 

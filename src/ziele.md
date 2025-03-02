@@ -13,3 +13,8 @@
   * **Informieren** des Kunden über die Ergebnisse der `Risikoanalyse`
 * **Reflektieren** des Arbeitsprozesses hinsichtlich möglicher `Optimierungen`
   * Diskutieren des Ergebnisses in Bezug auf den Begriff der `relativen Sicherheit` des vernetzten Systems
+
+
+## Empfohlene Materialien
+
+* [Cybersecurity Academy Foundational Courses](https://beacon.paloaltonetworks.com/student/catalog/list?category_ids=25395-cybersecurity-academy-foundational-courses)

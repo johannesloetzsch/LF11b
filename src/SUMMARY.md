@@ -3,7 +3,7 @@
 - [Ziele](./ziele.md)
   - [Hacken](hacking.md)
   - [Plan](./plan.md)
-  - [CTF](./ctf/ctf1/README.md)
+  - [CTF](./ctf/README.md)
 - [Grundlagen](./grundlagen.md)
   - [Threat Models](./threatmodels.md)
   - [Kryptografie](./kryptografie.md)

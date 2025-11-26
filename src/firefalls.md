@@ -58,6 +58,10 @@
   * komplexe Konfiguration, Debuggen, Kosten
   * maschinelle Lernverfahren
 
+### Web Application Firewall (WAF)
+
+Beispiel: [Anomaly Scoring](https://coreruleset.org/docs/2-how-crs-works/2-1-anomaly_scoring/) in [ModSecurity](https://modsecurity.org/)
+
 
 ## Beispiel: [iptables](https://wiki.ubuntuusers.de/iptables/)
 
@@ -69,3 +73,7 @@ iptables -P OUTPUT ACCEPT
 iptables -A INPUT -m state --state NEW,ESTABLISHED -j ACCEPT
 iptables -P INPUT DROP
 ```
+
+![nf-hooks](https://people.netfilter.org/pablo/nf-hooks.png)
+
+> Mehr Details: [Einfuhrung in nftables](https://media.ccc.de/v/clt25-224-einfuhrung-in-nftables)

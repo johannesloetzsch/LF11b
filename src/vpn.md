@@ -110,6 +110,9 @@ Manche VPN-Protokolle (z.B. IPSec) sind so tief im Betriebssystem eingebaut, das
 * [Komplexität](https://de.wikipedia.org/wiki/IPsec#Kritik_an_IPsec)
 * [sehr viele RFCs](https://de.wikipedia.org/wiki/IPsec#Normen_und_Standards)
 
+> TR-02102-3 „Kryptographische Verfahren: Empfehlungen und Schlüssellängen“
+> [Teil 3 – Verwendung von Internet Protocol Security (IPsec) und Internet Key Exchange (IKEv2)](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR02102/BSI-TR-02102-3.pdf)
+
 #### Verbindungsaufbau
 
 ##### [Security Association (SA)](https://de.wikipedia.org/wiki/Security_Association)

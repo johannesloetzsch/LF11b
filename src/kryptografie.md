@@ -1,5 +1,7 @@
 # Grundlagen Kryptografie
 
+> [BSI TR-02102](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr02102/tr02102_node.html) „Kryptographische Verfahren: Empfehlungen und Schlüssellängen“
+
 ## Verschlüsselung
 
 ### Symmetrisch

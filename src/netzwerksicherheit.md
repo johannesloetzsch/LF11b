@@ -4,6 +4,9 @@
 
 ## [SSL/TLS](https://de.wikipedia.org/wiki/Transport_Layer_Security) [(vereinfacht)](https://de.wikipedia.org/wiki/Transport_Layer_Security#/media/Datei:SSL_handshake_with_two_way_authentication_with_certificates.svg)
 
+> TR-02102-2 „Kryptographische Verfahren: Empfehlungen und Schlüssellängen“
+> [Teil 2 – Verwendung von Transport Layer Security (TLS)](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR02102/BSI-TR-02102-2.pdf)
+
 ```mermaid
 sequenceDiagram
     participant Client

@@ -72,6 +72,10 @@
 ### Security Logging and Monitoring Failures
 …
 
+> siehe auch:
+> * [OWASP Top Ten](https://owasp.org/www-project-top-ten/)
+> * [ATT&CK Matrix](https://attack.mitre.org/)
+
 
 ## Maßnahmen / Werkzeuge
 
@@ -102,7 +106,9 @@
 
 ![KISS-Prinzip](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Keep_it_Simple.jpg/1024px-Keep_it_Simple.jpg)
 
-### [Secure by design](https://en.wikipedia.org/wiki/Secure_by_design), Technischer Datenschutz, [Multilaterale Sicherheit](https://de.wikipedia.org/wiki/Multilaterale_Sicherheit)
+### [Security by design](https://en.wikipedia.org/wiki/Secure_by_design), Security by default
+
+### Technischer Datenschutz, [Multilaterale Sicherheit](https://de.wikipedia.org/wiki/Multilaterale_Sicherheit)
 
 ### [Kerckhoffs’ Prinzip](https://de.wikipedia.org/wiki/Kerckhoffs%E2%80%99_Prinzip)
 

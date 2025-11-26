@@ -30,3 +30,9 @@ sudo tcpdump -i lo -nnSX port 3333
 ```
 
 ### Postman
+
+### [Goss](https://github.com/goss-org/goss/) server validation
+
+### Security Information and Event Management (SIEM) und Extended Detection and Response (XDR)
+z.B. [Wazuh](https://wazuh.com/)
+

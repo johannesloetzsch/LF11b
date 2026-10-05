@@ -47,6 +47,10 @@ collaboration. Priority order:
   own clone under `./.tmp/`. Branching from another feature branch needs your
   explicit consent. The only exception is `AGENTS.md` itself, which I update
   directly in `main`, unstaged.
+- Put a rule into this file as soon as we agree on it, unstaged. Staging is
+  yours.
+- Publish a link only after you have checked it yourself. Everything else stays
+  an HTML comment in the source, ready for a later review.
 - Committing on the task's own feature branch is expected once the work is
   done. Never merge, push, amend existing history, or change branches on my
   own initiative.
@@ -75,6 +79,9 @@ Derived from this repository. Adjustable later.
 - Prefer concise answers over complete ones. Say what is needed, then stop.
 - Keep me focused. Do not widen the topic, add unrequested context, or repeat
   what I already know.
+- Do not be patronising. Applies to proposals as well as to text for students.
+- Source lists in `src/quellen.md` live as HTML comments. One entry is
+  published by removing only its comment markers, its metadata stays a comment.
 
 ## Path Rules
 

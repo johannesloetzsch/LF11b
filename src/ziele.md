@@ -15,6 +15,8 @@
   * Diskutieren des Ergebnisses in Bezug auf den Begriff der `relativen Sicherheit` des vernetzten Systems
 
 
-## Empfohlene Materialien
+## Grundlagen
 
-* [Cybersecurity Academy Foundational Courses](https://beacon.paloaltonetworks.com/student/catalog/list?category_ids=25395-cybersecurity-academy-foundational-courses)
+Neben den offiziellen Vorgaben für LF11b wird sich um eine praxisnahe Ausbildung
+auf Basis von OER bemüht. Dafür verwendete Materialien finden sich unter
+[Quellen](./quellen.md).

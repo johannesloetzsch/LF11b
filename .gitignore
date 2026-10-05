@@ -3,3 +3,5 @@ book
 mermaid*.js
 
 *.swp
+
+**/.tmp/

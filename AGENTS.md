@@ -1,0 +1,91 @@
+# AGENTS.md
+
+Working agreement for AI assistance in this repository.
+
+LF11b — Betrieb und Sicherheit vernetzter Systeme gewährleisten.
+Fachinformatiker Systemintegration, third year of training.
+
+## Resource Principles
+
+My working time and token usage are the scarcest resources in this
+collaboration. Priority order:
+
+1. My working time
+2. Token usage
+3. Time until the next visible progress update
+
+- **No scope creep.** Do only what was commissioned. Do not pre-research what
+  might be needed later, however likely it seems.
+- **One subagent per parallelisable task.** Never more. Do it myself if a few
+  lookups suffice. Every subagent must be created as a visible task first.
+- **Plan before building.** Verify the planned approach actually solves the
+  task. Cut unnecessary steps before spending time on them.
+- **Compress results.** Never output raw research. Tables over prose, findings
+  over recommendations. "Not found" is a complete result, reported in one
+  sentence.
+- **Ask when genuinely unclear.** Act when clear. Ask when a translation, a
+  requirement or a decision is ambiguous or hard to reverse. Questions outside
+  the current task are collected and raised later, never blocking.
+- **Announce before non-trivial work.** One sentence on what I am doing and
+  why. Skip this for trivial steps.
+- **Flag unexpected state changes.** Tell me when repository state changes in
+  ways I did not cause, for example an edited `.gitignore`.
+
+## Your Rules
+
+- `AGENTS.md` is the only file I may write without being asked.
+- One-time grant for `src/quellen.md`, `src/SUMMARY.md` and `src/ziele.md`,
+  minimal changes only. Everything else requires explicit approval.
+- Plan mode is read-only. Execution happens only in build mode and always on
+  your explicit instruction. Return to plan mode as soon as the agreed task is
+  done.
+- Plan before every build. Grill unclear decisions first. Execute only what was
+  agreed, nothing more.
+- Work with minimum privileges.
+- `main` and `dev` belong to you. No checkout, no commit, no merge, no push.
+- Every write task gets its own feature branch, branched from `main`, and its
+  own clone under `./.tmp/`. Branching from another feature branch needs your
+  explicit consent. The only exception is `AGENTS.md` itself, which I update
+  directly in `main`, unstaged.
+- Committing on the task's own feature branch is expected once the work is
+  done. Never merge, push, amend existing history, or change branches on my
+  own initiative.
+- Existing repository content is assumed correct until you commission a check.
+  A systematic proofread is not implied by this rule.
+- Mark every source as verified or unconfirmed. In content that is published
+  as an mdBook, use verified sources only.
+- Correctness before scope. No filler, no padding, no speculation dressed up
+  as content.
+
+## Baseline Rules
+
+Derived from this repository. Adjustable later.
+
+- Write correct German for public content. Technical terms bilingual: the
+  English term used in practice plus the German term used in IHK exams. For
+  example *Schutzbedarfsfeststellung* / *protection need assessment*.
+- Follow repository conventions: Mermaid for diagrams, blockquotes instead of
+  admonitions, `bash` or `samp` for code, sources cited with publisher and
+  version.
+- No comments inside exercise snippets.
+- Announce the diff scope before substantial content changes.
+- Before every commit on a feature branch, verify that the new content is
+  correct, especially technical terms, figures, version numbers and legal
+  references.
+- Prefer concise answers over complete ones. Say what is needed, then stop.
+- Keep me focused. Do not widen the topic, add unrequested context, or repeat
+  what I already know.
+
+## Path Rules
+
+- `./.tmp/` is scratch space for feature branch clones. Never treat it as
+  project content.
+- `book/` is generated output. Never edit it by hand.
+- `src/` is the mdBook source. `src/SUMMARY.md` defines the navigation and is
+  the only place that determines which pages are published.
+- Local clones are shallow by default. Use `file://` if a shallow clone is
+  genuinely needed, since `--depth` is ignored for local clones.
+- After adding a git remote, run `git fetch` before expecting any
+  remote-tracking branch to exist.
+- A merge is verified when the intended file content is present in `main`, not
+  when the original commit SHA is reproduced.

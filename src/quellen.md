@@ -80,9 +80,10 @@ Sammelwerk für das Lernfeld. Geordnet nach Thema, nicht nach Unterrichtsstunde.
 <!-- Stichworte: NIST CSF 2.0 Übersetzung, BSI Standard 2000, CIS Controls Mapping, ISO 27019 -->
 
 
-<!--
 ## OER & Unterrichtsmaterial
--->
+
+- [Softwareanforderungen](https://github.com/fjodor/LF10a/blob/main/06_Softwareanforderungen.qmd) — Funktionale vs. Nichtfunktionale Anforderungen; Software-Qualitätsmerkmale: ISO 25010 (LF10a)
+<!-- geprüft -->
 
 <!-- - [OERinfo](https://open-educational-resources.de/) — Einführung in offene Bildungsressourcen, Lizenzen und Rechtsfragen. -->
 <!-- geprüft -->

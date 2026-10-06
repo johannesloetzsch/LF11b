@@ -42,11 +42,17 @@ collaboration. Priority order:
 - Plan before every build. Grill unclear decisions first. Execute only what was
   agreed, nothing more.
 - Work with minimum privileges.
+- Explain why a command needs permission before requesting it. Prefer read-only
+  alternatives. Never combine unrelated write operations in one command. Never
+  use a relative `cd`, especially not `cd ..`, to reach a working directory.
+  Use absolute paths or the workdir parameter so the scope is obvious.
 - `main` and `dev` belong to you. No checkout, no commit, no merge, no push.
-- Every write task gets its own feature branch, branched from `main`, and its
-  own clone under `./.tmp/`. Branching from another feature branch needs your
-  explicit consent. The only exception is `AGENTS.md` itself, which I update
-  directly in `main`, unstaged.
+- Every write task gets its own feature branch and its own clone under `./.tmp/`.
+  Independent tasks branch from `main`. Sequentially dependent tasks may chain
+  from the previous successful branch, so that only the last branch needs
+  merging. Any other branching from a feature branch needs your explicit
+  consent. The only exception is `AGENTS.md` itself, which I update directly in
+  `main`, unstaged.
 - Put a rule into this file as soon as we agree on it, unstaged. Staging is
   yours.
 - Publish a link only after you have checked it yourself. Everything else stays

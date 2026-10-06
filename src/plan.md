@@ -2,8 +2,22 @@
 
 ## Zeitplan
 
-siehe Ilias
+```mermaid
+gantt
+    title LF11b Stunden
+    dateFormat YYYY-MM-DD
+    axisFormat %d.%m.%Y
+    section 06.10. – 08.10.
+        IT-Grundschutz : 2026-10-06, 3d
+    section 19.10. – 23.10.
+        Crypto & Auth : 2026-10-19, 5d
+    section 26.10. – 29.10.
+        Netzwerksicherheit : 2026-10-26, 4d
+    section 30.11. – 02.12.
+        Praxis : 2026-11-30, 3d
+```
 
+<!--
 
 ## Leistungskontrollen
 * **Fr 28.11. Klassenarbeit: doppelte Wertung, 90min, handschriftlich**
@@ -50,3 +64,5 @@ siehe Ilias
     * [ ] NMap
     * [ ] Wireshark / TCPdump
   * [ ] Binary Exploitation
+
+-->

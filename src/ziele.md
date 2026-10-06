@@ -18,15 +18,51 @@
 
 ## Lehrplan Sachsen
 
-| Lernsituation | Titel | Ustd. |
+| Lernsituation | Titel | UE |
 |---|---|---|
 | 11b.1 | Schutzziele eines IT-Systems erfassen und systematisch Sicherheitsrisiken zuordnen | 20 |
 | 11b.2 | Technisch-organisatorische Maßnahmen (TOM) zur Schadensminimierung für laufenden Betrieb planen | 18 |
 | 11b.3 | Instrumente zur Cybersecurity implementieren und Systemparameter automatisiert dokumentieren | 24 |
 | 11b.4 | Sicherheitslevel und Compliance per Audit zertifizieren | 18 |
 
+## Prüfungsvorbereitung
+
+Für die Prüfungsvorbereitung erscheinen nach Sichtung vergangener IHK-Prüfungen folgenden Schwerpunkte als relevant für LF11b um alle Fachkompetenzen in einem geeigneten Lernfeld abzudecken:
+
+### Datenschutz und Datensicherheit
+* [Wiederholung LF4](https://johannesloetzsch.github.io/LF4/plan.html)
+  * IT-Grundschutz
+  * Schutzbedarfsanalyse
+  * Grundlagen TOM 
+* Risikoanalyse
+
+### Crypto & Auth
+* X.509, CA
+* TLS
+* Auth
+  * 2FA
+  * SSO (SAML, OAuth2, OpenID Connect)
+
+### Netzwerke
+* Router, NAT
+* Firewall, DMZ
+* VLAN, Router-on-a-stick
+* VPN
+* WLAN, Radius
+
 ## Praxis
 
 Neben den offiziellen Vorgaben für LF11b wird sich um eine praxisnahe Ausbildung
 auf Basis von OER bemüht. Dafür verwendete Materialien finden sich unter
 [Quellen](./quellen.md).
+
+### Verschlüsselung
+* SSH-Keys
+* GPG
+* TLS
+
+### Netzwerkpraxis
+* MITM-Proxy
+* nmap
+* tcpdump, Wireshark
+* OpenVAS, SIEM

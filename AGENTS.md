@@ -16,8 +16,6 @@ collaboration. Priority order:
 
 - **No scope creep.** Do only what was commissioned. Do not pre-research what
   might be needed later, however likely it seems.
-- **One subagent per parallelisable task.** Never more. Do it myself if a few
-  lookups suffice. Every subagent must be created as a visible task first.
 - **Plan before building.** Verify the planned approach actually solves the
   task. Cut unnecessary steps before spending time on them.
 - **Compress results.** Never output raw research. Tables over prose, findings
@@ -76,8 +74,14 @@ collaboration. Priority order:
   own initiative.
 - Existing repository content is assumed correct until you commission a check.
   A systematic proofread is not implied by this rule.
-- Mark every source as verified or unconfirmed. In content that is published
-  as an mdBook, use verified sources only.
+- Mark every source as verified or unconfirmed. Verified means title, publisher,
+  edition and year are confirmed from an authoritative source, either the
+  document itself or an official secondary source such as a parliamentary
+  record. It does not require that the document can be retrieved from this
+  machine. Content that is published as an mdBook may only cite verified sources.
+  Record a retrieval failure from this machine in an HTML comment at the entry
+  rather than by downgrading the source, because a host that is blocked here is
+  not a broken link for the reader.
 - Correctness before scope. No filler, no padding, no speculation dressed up
   as content.
 
@@ -119,6 +123,45 @@ Derived from this repository. Adjustable later.
 
 ## Notes
 
+- Everything in this section is a cache of measured behaviour, not a
+  specification. The figures come from a single measurement session and are
+  assumptions, not facts. Re-evaluate them whenever the tooling changes
+  underneath us: a provider changes an API, its limits or its pricing, a tool is
+  replaced, or a recorded block is lifted. A single call that exceeds its
+  recorded cost is already reason enough to redo the measurement. If following a
+  note here costs more resources than the task it is meant to save, the note is
+  wrong, so change it or delete it. Acting on a stale assumption costs more than
+  having no assumption at all.
+- A web search costs roughly 8k tokens per call, measured in this session and
+  therefore an order of magnitude, not a fixed price. `numResults` and
+  `contextMaxCharacters` do not limit the returned excerpts. Budget one search per
+  question and make it count, because a second one costs as much as the first.
+- Check whether a URL resolves before searching for it: `curl -sIL -o /dev/null
+  -w '%{http_code} %{content_type}'`. Probing six candidate URLs in one call
+  costs about as much as one search. Blocks are per domain, so a single probe
+  establishes whether a whole publisher is reachable.
+- Reachability of the publisher's domain is a precondition for a task, not a
+  detail. If the domain is blocked from this machine, a search can at best
+  produce an unverified link, and it is often not worth 8k.
+- Two domains are blocked from this machine: `bsi.bund.de` answers every path
+  with HTTP 400, including plain pages and with a browser header, and
+  `eur-lex.europa.eu` resolves but times out. An unreachability here is not a
+  broken link for the reader, so such a source may still be cited, marked as
+  not verifiable from here.
+- Prefer `curl` plus a local filter over a search whenever the document is
+  reachable over HTTP. Downloading one document and filtering it locally three
+  times cost about as much as a single search, and the passes after the first
+  are nearly free.
+- A source entry needs title, publisher, edition and year, and all four are on
+  the first page. `pdftotext -f 1 -l 1 -layout - -` instead of the whole
+  document. Anchor on words like `Auflage` or `Zeitrichtwert` with `rg` instead
+  of dumping a line window.
+- Read the edition or date inside the excerpt, not only the title. German
+  training documents rank by popularity, so searches surface superseded plans: a
+  framework plan from 1997 came up for the current KMK query.
+- `rg` obeys `.gitignore`, and `.tmp/` is ignored here, so cached sources need
+  `rg --no-ignore` or an explicit path. Getting this wrong looks like an empty
+  result rather than an error.
 - Read a PDF without storing it. Pipe it through the text extractor and read from
   stdout: `curl -sL URL | pdftotext -layout - -`. The `-layout` switch preserves
   table columns. The `#ai` development shell provides `pdftotext`.

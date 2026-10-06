@@ -8,12 +8,13 @@
 - [Rahmenlehrplan Fachinformatiker, Sachsen](https://www.schulportal.sachsen.de/lplandb/lehrplan/398) — Beschreibung des Lernfelds; Grundlage aller Lernziele. <!-- geprüft -->
 
 
-<!--
 ## Recht
--->
 
-<!-- - [DSGVO](https://eur-lex.europa.eu/eli/reg/2016/679/oj) — Art. 5 Grundsätze, Art. 32 technische und organisatorische Maßnahmen. -->
-<!-- geprüft; besser eine deutschsprachige Quelle -->
+- [DSGVO, Verordnung (EU) 2016/679, amtlicher Text](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679) — Art. 5 Grundsätze der Verarbeitung, Art. 32 technische und organisatorische Maßnahmen. <!-- geprüft: CELEX 32016R0679 und der Artikelbezug. Von dieser Maschine nicht abrufbar, eur-lex.europa.eu löst auf, alle Verbindungen laufen in einen Timeout. -->
+  - [DSGVO, Art. 5 (Grundsätze für die Verarbeitung personenbezogener Daten)](https://gesellschaft-datenschutz.de/dsgvo/art-5-dsgvo)
+  - [DSGVO, Art. 32 (Sicherheit der Verarbeitung)](https://gesellschaft-datenschutz.de/dsgvo/art-32-dsgvo)
+  <!-- deutschsprachiger Portaltext, kein amtlicher Text. -->
+  <!-- geprüft: beide Artikel abgerufen, die Überschriften lauten Grundsätze für die Verarbeitung personenbezogener Daten und Sicherheit der Verarbeitung. -->
 
 
 <!-- - [Gesetze im Internet](https://www.gesetze-im-internet.de/) — amtliche Gesetzestexte, zitierfähig und kostenlos. -->
@@ -42,13 +43,19 @@
 <!-- Stichworte: CISG Einbeziehung, IT-Standardvertragsklauseln, HWStG Aufbewahrung Unterlagen, CIS AG IT-Recht -->
 
 
-<!--
 ## IT-Grundschutz & Standards
--->
 
 <!-- - [IT-Grundschutz-Kompendium](https://www.bsi.bund.de/) — Bausteine und Risikoanalyse, das Standardwerk im deutschen Unterricht. -->
 <!-- geprüft -->
-<!-- Die Unterseite zum Kompendium war nur über die Suche auffindbar, daher hier die Startseite. -->
+<!-- Von dieser Maschine nicht abrufbar, bsi.bund.de antwortet auf jeden Pfad mit HTTP 400. Die Unterseite zum Kompendium ist nicht gefunden, daher steht hier die Startseite. -->
+
+- [BSI-Standard 200-1](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/BSI_Standards/standard_200_1.pdf?__blob=publicationFile&v=2) — Managementsysteme für Informationssicherheit (ISMS) <!-- Version 1.0, Oktober 2017. -->
+<!-- geprüft: Titel, Ausgabe und Datum vom Nutzer auf Seite 1 des PDF bestätigt. PDF-Muster identisch mit dem vom Nutzer bestätigten 200-3-Link. Vollständige Kompatibilität zu ISO/IEC 27001 laut Suchauszug des Dokuments, am Dokument nicht geprüft, April 2017 war der Konsultationsentwurf CD 1.0. -->
+
+- [BSI-Standard 200-3](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/BSI_Standards/standard_200_3.pdf?__blob=publicationFile&v=2) — Risikoanalyse auf Basis von IT-Grundschutz <!-- Version 1.0, Oktober 2017 -->  <!-- geprüft: Titel, Ausgabe und Datum vom Nutzer auf Seite 1 und in der Versionshistorie des PDF bestätigt, beide Links am eigenen Rechner abgerufen. -->
+([HTML Version](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/BSI-Standards/BSI-Standard-200-3-Risikomanagement/bsi-standard-200-3-risikomanagement_node.html))
+
+
 <!-- - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) — Funktionen Govern, Identify, Protect, Detect, Respond, Recover. -->
 <!-- geprüft -->
 
@@ -108,13 +115,10 @@
 <!-- Stichworte: Open Educational Resources Deutschland, Creative Commons BY-SA Unterricht -->
 
 
-<!--
 ## Bedrohungslage
--->
 
-<!-- - [IT-Sicherheitslage des BSI](https://www.bsi.bund.de/) — jährlicher Lagebericht, gute Quelle für Zahlen im Unterricht. -->
-<!-- geprüft -->
-<!-- Die Unterseite zum Lagebericht war nur über die Suche auffindbar, daher hier die Startseite. — wenigstens auf url mit passender suchanfrage verweisen. besser "richtige" url finden. der link währe wertvoll -->
+- [BSI-Lagebericht 2025](https://medien.bsi.bund.de/lagebericht/de) — jährlicher Lagebericht zur IT-Sicherheit in Deutschland <!-- Berichtszeitraum 1. Juli 2024 bis 30. Juni 2025 -->
+<!-- geprüft: Ausgabe 2025 mit Berichtszeitraum. Von dieser Maschine nicht abrufbar, medien.bsi.bund.de und bsi.bund.de antworten durchgängig mit HTTP 400. Der Bericht erscheint seit 2025 nur noch als Onlineversion, dazu ein Handout als PDF: https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Lageberichte/Lagebericht2025_Achtseiter.pdf?__blob=publicationFile&v=7 -->
 
 
 <!-- - [CISA Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — Schwachstellen, die nachweislich ausgenutzt werden. -->
@@ -141,7 +145,6 @@
 <!-- geprüft -->
 <!-- - [Securelist](https://securelist.com/) — Detailanalysen aus der Sicherheitsforschung. -->
 <!-- geprüft -->
-<!-- - jährlicher Lagebericht des BSI als PDF, aktuelle Ausgabe -->
 <!-- - Statistiken der BNetzA zu Cybervorfällen in der Bundeswirtschaft -->
 <!-- - BSI Monatsbericht zur IT-Sicherheitslage, Unterseite derzeit nicht auffindbar -->
 <!-- Stichworte: ENISA Threat Landscape 2025, Ransomware Doppelpresse, Mandiant Threat Intelligence -->

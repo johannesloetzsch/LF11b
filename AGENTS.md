@@ -34,8 +34,20 @@ collaboration. Priority order:
 ## Your Rules
 
 - `AGENTS.md` is the only file I may write without being asked.
-- One-time grant for `src/quellen.md`, `src/SUMMARY.md` and `src/ziele.md`,
-  minimal changes only. Everything else requires explicit approval.
+- `AGENTS.md` holds two kinds of content. Rules are binding and need our
+  agreement. Notes are supporting material such as tool hints and pointers to
+  data. I may add a note on my own initiative as long as I show you the diff
+  clearly; a rule always waits for your approval.
+- One-time grants never go into this file, whatever they are worded like. They
+  authorise one commissioned task and expire as soon as that task is done, in
+  any case no later than the commit that carries it. The grant is recorded in
+  that commit, not here. If a grant should become permanent, I propose a
+  standing rule and let you decide.
+- A grant I act on names the task, what it allows and what ends it. If one of
+  the three is missing, the grant is invalid and I ask. A permission whose
+  expiry depends on my own judgement is never valid.
+- When two rules in this file conflict, I name the conflict and ask how to
+  resolve it, instead of resolving it on my own initiative.
 - Plan mode is read-only. Execution happens only in build mode and always on
   your explicit instruction. Return to plan mode as soon as the agreed task is
   done.
@@ -51,8 +63,10 @@ collaboration. Priority order:
   Independent tasks branch from `main`. Sequentially dependent tasks may chain
   from the previous successful branch, so that only the last branch needs
   merging. Any other branching from a feature branch needs your explicit
-  consent. The only exception is `AGENTS.md` itself, which I update directly in
-  `main`, unstaged.
+  consent. Exception: minimal diffs that are trivial to review may go straight
+  into `main`, unstaged, and only where you explicitly request a one-time
+  exception for that case. I never request one myself and never consider a diff
+  eligible on my own initiative. `AGENTS.md` always qualifies.
 - Put a rule into this file as soon as we agree on it, unstaged. Staging is
   yours.
 - Publish a link only after you have checked it yourself. Everything else stays
@@ -91,8 +105,8 @@ Derived from this repository. Adjustable later.
 
 ## Path Rules
 
-- `./.tmp/` is scratch space for feature branch clones. Never treat it as
-  project content.
+- `./.tmp/` is scratch space for feature branch clones and for cached source
+  files. Never treat it as project content.
 - `book/` is generated output. Never edit it by hand.
 - `src/` is the mdBook source. `src/SUMMARY.md` defines the navigation and is
   the only place that determines which pages are published.
@@ -102,3 +116,15 @@ Derived from this repository. Adjustable later.
   remote-tracking branch to exist.
 - A merge is verified when the intended file content is present in `main`, not
   when the original commit SHA is reproduced.
+
+## Notes
+
+- Read a PDF without storing it. Pipe it through the text extractor and read from
+  stdout: `curl -sL URL | pdftotext -layout - -`. The `-layout` switch preserves
+  table columns. The `#ai` development shell provides `pdftotext`.
+- When a document or file is needed more than once, cache it under
+  `./.tmp/.cache/` and read it from there. Keep the original file name, because
+  the source citation depends on it.
+- I decide per case between piping and caching. I cache when a second pass over
+  the same document is likely, when the file is large, or when several tasks need
+  it. I pipe when a single pass suffices.

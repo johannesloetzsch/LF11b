@@ -1,13 +1,9 @@
 # Quellen
 
-<!-- toc -->
-
-<!--
-Sammelwerk für das Lernfeld. Geordnet nach Thema, nicht nach Unterrichtsstunde.
--->
-
 
 ## Anforderungen
+
+- [Rahmenlehrplan Fachinformatiker, KMK](https://www.kmk.org/fileadmin/Dateien/pdf/Bildung/BeruflicheBildung/rlp/Fachinformatiker_19-12-13_EL.pdf) — Beschluss vom 13.12.2019; Übersicht aller 12 Lernfelder mit Titeln, abstrakten Inhalten und Zeitrichtwerten. <!-- geprüft -->
 
 - [Rahmenlehrplan Fachinformatiker, Sachsen](https://www.schulportal.sachsen.de/lplandb/lehrplan/398) — Beschreibung des Lernfelds; Grundlage aller Lernziele. <!-- geprüft -->
 
@@ -188,14 +184,11 @@ Sammelwerk für das Lernfeld. Geordnet nach Thema, nicht nach Unterrichtsstunde.
 ## Hinweise für Lehrkräfte
 -->
 
-<!-- - [KMK, Bildungsstandards Fachinformatiker](https://www.kmk.org/) — bundesweite Rahmenvorgaben der Berufsschulen. -->
-<!-- geprüft -->
 <!-- - [IHK Dresden, Ausbildungsberuf Fachinformatiker](https://www.ihk.de/dresden/hauptnavigation/bildung-fachkraefte/azubis-fachkraefte-finden/alles-zur-ausbildung/ausbildungsberufe-von-a-bis-z-und-zusatzqualifikationen/ausbildungsberufe-von-a-bis-z/fachinformatiker-6002090) — Ausbildungsberuf, Prüfungsordnung und Anforderungen der IHK. -->
 <!-- geprüft -->
 <!-- - [BIBB](https://www.bibb.de/) — Berufsbild und Ausbildungsordnung Fachinformatiker. -->
 <!-- geprüft -->
 <!-- - amtlicher Text der Ausbildungsordnung Fachinformatiker, Fassung mit Lernfeld LFQ -->
-<!-- - Bildungsstandards KMK als PDF, Fassung der Fachinformatikerberufe -->
 <!-- - BBiG, amtlicher Text auf Gesetze im Internet, Pfad derzeit nicht auffindbar -->
 <!-- GIHK: https://gihk.de/ — Berufsbildung Informatik, Prüfungsvorbereitung und
      Fördermaterial. Die Seite liefert keinen brauchbaren Inhalt, daher nicht

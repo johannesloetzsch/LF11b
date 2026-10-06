@@ -8,6 +8,8 @@ title = "LF11b: Betrieb und Sicherheit vernetzter Systeme gewährleisten"
 
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
+[preprocessor.toc]
+command = "mdbook-toc"
 
 [output]
 

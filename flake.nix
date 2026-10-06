@@ -15,7 +15,7 @@
 
     devShells.${system} = {
       ci = pkgs.mkShell {
-        nativeBuildInputs = with pkgs; [ mdbook mdbook-mermaid ];
+        nativeBuildInputs = with pkgs; [ mdbook mdbook-mermaid mdbook-toc ];
         shellHook = ''
           mdbook-mermaid install
           mdbook build
@@ -24,7 +24,7 @@
         '';
       };
       default = pkgs.mkShell {
-        nativeBuildInputs = with pkgs; [ mdbook mdbook-mermaid ];
+        nativeBuildInputs = with pkgs; [ mdbook mdbook-mermaid mdbook-toc ];
         shellHook = ''
           mdbook-mermaid install
           mdbook serve --port 3333 --open

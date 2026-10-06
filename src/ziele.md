@@ -1,4 +1,6 @@
-# Ziele gemäß Rahmenlehrplan
+# Ziele
+
+## Rahmenlehrplan
 
 * **Mit Hilfe einer `Risikoanalyse` den `Schutzbedarf` eines vernetzten Systems ermitteln und `Schutzmaßnahmen` planen, umzusetzen und dokumentieren**
 
@@ -14,8 +16,16 @@
 * **Reflektieren** des Arbeitsprozesses hinsichtlich möglicher `Optimierungen`
   * Diskutieren des Ergebnisses in Bezug auf den Begriff der `relativen Sicherheit` des vernetzten Systems
 
+## Lehrplan Sachsen
 
-## Grundlagen
+| Lernsituation | Titel | Ustd. |
+|---|---|---|
+| 11b.1 | Schutzziele eines IT-Systems erfassen und systematisch Sicherheitsrisiken zuordnen | 20 |
+| 11b.2 | Technisch-organisatorische Maßnahmen (TOM) zur Schadensminimierung für laufenden Betrieb planen | 18 |
+| 11b.3 | Instrumente zur Cybersecurity implementieren und Systemparameter automatisiert dokumentieren | 24 |
+| 11b.4 | Sicherheitslevel und Compliance per Audit zertifizieren | 18 |
+
+## Praxis
 
 Neben den offiziellen Vorgaben für LF11b wird sich um eine praxisnahe Ausbildung
 auf Basis von OER bemüht. Dafür verwendete Materialien finden sich unter

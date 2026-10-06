@@ -31,6 +31,9 @@
           exit
         '';
       };
+      ai = pkgs.mkShell {
+        nativeBuildInputs = with pkgs; [ poppler-utils jq ripgrep ];
+      };
     };
   };
 }

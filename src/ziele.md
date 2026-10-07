@@ -31,6 +31,7 @@ Für die Prüfungsvorbereitung erscheinen nach Sichtung vergangener IHK-Prüfung
 
 ### Datenschutz und Datensicherheit
 * [Wiederholung LF4](https://johannesloetzsch.github.io/LF4/plan.html)
+  * Datenschutz
   * IT-Grundschutz
   * Schutzbedarfsanalyse
   * Grundlagen TOM 
@@ -43,7 +44,7 @@ Für die Prüfungsvorbereitung erscheinen nach Sichtung vergangener IHK-Prüfung
   * 2FA
   * SSO (SAML, OAuth2, OpenID Connect)
 
-### Netzwerke
+### Sicherheit vernetzter Systeme
 * Router, NAT
 * Firewall, DMZ
 * VLAN, Router-on-a-stick
@@ -52,9 +53,11 @@ Für die Prüfungsvorbereitung erscheinen nach Sichtung vergangener IHK-Prüfung
 
 ## Praxis
 
+<!--
 Neben den offiziellen Vorgaben für LF11b wird sich um eine praxisnahe Ausbildung
 auf Basis von OER bemüht. Dafür verwendete Materialien finden sich unter
 [Quellen](./quellen.md).
+-->
 
 ### Verschlüsselung
 * SSH-Keys
@@ -66,3 +69,5 @@ auf Basis von OER bemüht. Dafür verwendete Materialien finden sich unter
 * nmap
 * tcpdump, Wireshark
 * OpenVAS, SIEM
+
+### [CTF](./quellen.md#übungen)

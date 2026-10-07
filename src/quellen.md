@@ -175,10 +175,11 @@
 <!-- geprüft -->
 <!-- - [CyberChef](https://www.cyberchef.org/) — Werkzeugkasten für Kodierung, Hashing, Datenanalyse inklusive Encoding- und JSON-Arbeitsblätter. -->
 <!-- geprüft -->
-<!-- - [hashcat](https://hashcat.net/) — Passwortknacken zum Verstehen von Hashverfahren. -->
-<!-- geprüft -->
-<!-- - [John the Ripper](https://www.openwall.com/john/) — Passwortknacken, Gegenstück zu hashcat. -->
-<!-- geprüft -->
+
+- [hashcat](https://hashcat.net/) — Passwortknacken <!-- geprüft -->
+
+- [John the Ripper](https://www.openwall.com/john/) — Passwortknacken <!-- geprüft -->
+
 <!-- - deutschsprachige Übungsserver für Einsteiger, Netwars oder ähnliches -->
 <!-- - BSI-Sicherheitstest für den praktischen Teil der Abschlussprüfung -->
 <!-- Stichworte: CTF Übungsserver deutsch, Netwars, Security Awareness Unterricht Simulation -->
@@ -187,8 +188,11 @@
 
 - Prüfungskatalog (U-Form Verlag)
 
-<!-- - [IHK Dresden, Ausbildungsberuf Fachinformatiker](https://www.ihk.de/dresden/hauptnavigation/bildung-fachkraefte/azubis-fachkraefte-finden/alles-zur-ausbildung/ausbildungsberufe-von-a-bis-z-und-zusatzqualifikationen/ausbildungsberufe-von-a-bis-z/fachinformatiker-6002090) — Ausbildungsberuf, Prüfungsordnung und Anforderungen der IHK. -->
-<!-- geprüft -->
+- [IHK Dresden, Ausbildungsberuf Fachinformatiker](https://www.ihk.de/dresden/hauptnavigation/bildung-fachkraefte/azubis-fachkraefte-finden/alles-zur-ausbildung/ausbildungsberufe-von-a-bis-z-und-zusatzqualifikationen/ausbildungsberufe-von-a-bis-z/fachinformatiker-6002090) — Ausbildungsberuf, Prüfungsordnung und Anforderungen der IHK. <!-- geprüft -->
+
+- [Fachinformatikerausbildungsverordnung (FIAusbV)](https://www.gesetze-im-internet.de/fiausbv/BJNR025000020.html) — Volltext der Ausbildungsverordnung <!-- Vollzitat: FIAusbV vom 28. Februar 2020, BGBl. I S. 250; bereitgestellt über gesetze-im-internet.de, BMJ und BfJ --> <!-- geprüft -->
+  - [§ 24 — Gewichtung der Prüfungsbereiche für die Fachrichtung Systemintegration](https://www.gesetze-im-internet.de/fiausbv/__24.html)
+
 <!-- - [BIBB](https://www.bibb.de/) — Berufsbild und Ausbildungsordnung Fachinformatiker. -->
 <!-- geprüft -->
 <!-- - amtlicher Text der Ausbildungsordnung Fachinformatiker, Fassung mit Lernfeld LFQ -->
@@ -197,8 +201,3 @@
      Fördermaterial. Die Seite liefert keinen brauchbaren Inhalt, daher nicht
      sichtbar. -->
 <!-- Stichworte: Ausbildungsordnung Anlage 1, Ausbildungsberuf -->
-
-- [Fachinformatikerausbildungsverordnung (FIAusbV)](https://www.gesetze-im-internet.de/fiausbv/BJNR025000020.html) — Volltext der Ausbildungsverordnung <!-- Vollzitat: FIAusbV vom 28. Februar 2020, BGBl. I S. 250; bereitgestellt über gesetze-im-internet.de, BMJ und BfJ --> <!-- geprüft -->
-  - [§ 24 — Gewichtung der Prüfungsbereiche für die Fachrichtung Systemintegration](https://www.gesetze-im-internet.de/fiausbv/__24.html)
-
-<!-- - [Leitfaden zur IHK-Abschlussprüfung Fachinformatiker/-in Systemintegration (AO 2020)](https://www.ihk.de/blueprint/servlet/resource/blob/6957958/0406d7573bcf1364f4e5e2b26a4a3cb7/leitfaden-itberufe-ao20-fisi-februar-2026-data.pdf) — kostenloser Leitfaden der IHK Berlin zu Ablauf und Bewertung der Abschlussprüfung --> <!-- Tr6 vom 24.07.2026, 19 Seiten; Dateiname nennt February 2026, das Dokument selbst ist Tr6 vom 24.07.2026 --> <!-- geprüft --> <!-- leider nur in berlin gültig -->

@@ -17,6 +17,44 @@ gantt
         Praxis : 2026-11-30, 3d
 ```
 
+### Grundlagen Datenschutz und Datensicherheit
+
+06.10.:
+* Einordnung [Datenschutz und Datensicherheit](https://johannesloetzsch.github.io/LF4/dud.html)
+* Datenschutzrecht
+  * [Gesetze](https://johannesloetzsch.github.io/LF4/datenschutz.html)
+    * DSGVO, BDSG, …
+  * [Prinzipien](https://johannesloetzsch.github.io/LF4/datenschutz_prinzipien.html)
+    * Verbot mit Erlaubnisvorbehalt
+    * Grundsätze für die Verarbeitung personenbezogener Daten
+    * Betroffenenrechte
+    * Verarbeitung besonderer Kategorien personenbezogener Daten
+    * Melde-/Benachrichtigungspflichten
+  * [Verantwortlichkeiten](https://johannesloetzsch.github.io/LF4/datenschutz_verantwortlichkeiten.html)
+  * [Datensparsamkeit](https://johannesloetzsch.github.io/LF4/datensparsamkeit.html)
+* [Datensicherheit](https://johannesloetzsch.github.io/LF4/datensicherheit.html)
+
+* [IT-Grundschutz-Methodik](https://johannesloetzsch.github.io/LF4/grundschutz.html)
+  * Basis-, Kern-, Standardabsicherung
+
+07.10.:
+* [IT-Sicherheitsmanagement](https://johannesloetzsch.github.io/LF4/ism.html)
+* [Gefährdungen](https://johannesloetzsch.github.io/LF4/gef%C3%A4hrungen.html#gef%C3%A4hrdungen-mit-besonderer-relevanz-f%C3%BCr-die-ihk-pr%C3%BCfung)
+  * DoS
+  * Phishing
+  * Arten von Malware: Würmer, Trojaner, Ransomware
+* [Vulnerability -> Exploit](https://johannesloetzsch.github.io/LF4/vulnerabilities.html)
+* [Schutzbedarfsanalyse](https://johannesloetzsch.github.io/LF4/schutzbedarfsanalyse.html)
+
+08.10.:
+* [IT-Grundschutz-Check](https://johannesloetzsch.github.io/LF4/grundschutz_check.html)
+* [Grundlagen TOM](https://johannesloetzsch.github.io/LF4/tom.html)
+  * [Endgerätesicherheit](https://johannesloetzsch.github.io/LF4/endger%C3%A4tesicherheit.html)
+* [Ablauf Standard-Absicherung](https://johannesloetzsch.github.io/LF4/grundschutz_methodik.html)
+  * [Risikoanalyse](https://johannesloetzsch.github.io/LF4/risikoanalyse.html)
+
+
+
 <!--
 
 ## Leistungskontrollen

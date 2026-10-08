@@ -3,6 +3,7 @@
 - [Ziele](./ziele.md)
   - [Quellen](./quellen.md)
   - [Plan](./plan.md)
+  - [Prüfungsvorbereitung](./material/prüfungsaufgaben.md)
 - [Grundlagen](./grundlagen.md)
   - [Threat Models](./threatmodels.md)
   - [Kryptografie](./kryptografie.md)

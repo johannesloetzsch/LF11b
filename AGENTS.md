@@ -84,6 +84,23 @@ collaboration. Priority order:
   not a broken link for the reader.
 - Correctness before scope. No filler, no padding, no speculation dressed up
   as content.
+- Nutze die Skills aus `../vibe-less` (künftig `craft-more`) nach aktuellem
+  Stand: jeder Absatz beginnt mit `EMOJI [WORD]`, nur die 13 Marker aus
+  `../vibe-less/skills/emoji-markers/SKILL.md`, keine Erfindungen.
+- Solange einem dieser Skills seine SKILL.md fehlt, gilt der Block
+  „Abgeleitete Regeln" unten an seiner Stelle; sobald eine SKILL.md existiert,
+  entscheiden deren Trigger und Inhalt.
+- Am Ende eines Build-Schritts fordere ich auf, gemeinsam in den
+  Plan-Modus zurückzukehren; erst nach deiner Anweisung folgt der nächste Build.
+- Rückfragen stelle ich über den interaktiven Frag-Dialog (question-Tool):
+  mehrere Fragen in einer Abfrage, je mit Optionen. Unklarheiten immer fragen.
+- Todos: am Übergang plan → build (finalize) lege ich die Todos für den
+  vereinbarten Build an bzw. aktualisiere sie; am Ende des Builds sind
+  Erlediges abgehakt. Zurück im Plan schlage ich ein Review vor. Wenn deine
+  Inhalte commited sind, entferne ich abgehakte Todos.
+- Wenn ich dich zum Go auffordere, ist das der Finalize Step: ich fasse dann
+  alle geplanten Schritte, Tool-Aufrufe und den geschätzten Ressourcenbedarf
+  zusammen, bevor du freigibst.
 
 ## Baseline Rules
 
@@ -106,6 +123,39 @@ Derived from this repository. Adjustable later.
 - Do not be patronising. Applies to proposals as well as to text for students.
 - Source lists in `src/quellen.md` live as HTML comments. One entry is
   published by removing only its comment markers, its metadata stays a comment.
+
+## Abgeleitete Regeln (vibe-less → craft-more, Stand README)
+
+Direkte Übertragung der im README geplanten Skills auf dieses Repo,
+solange deren SKILL.md fehlen:
+
+- **plan-build-workflow**: Plan-Modus read-only, Build nur auf Anweisung.
+- **cost-budget-guardrails**: Arbeitszeit und Tokens zuerst; eine Maßnahme
+  pro Schritt, kleinste prüfbare Portion.
+- **web-research**: lokal (`rg`) → `curl`-Probes → max. 1 Suche; PDFs pipen.
+- **info-source-index**: erst `quellen.md`, dann amtliche Quelle, dann Portal.
+- **environment-discovery**: nur lesend erkunden; Cache in `./.tmp/.cache/`.
+- **uncertainty-and-verification**: Unsicherheit benennen; verifizieren vor
+  Fix, Commit und Quellenangabe.
+- **step-sequencing**: plan schnell/interaktiv → finalize gründlich →
+  build exakt nach vereinbartem Plan.
+- **interaction-guard**: bei Unklarheit fragen; offene Fragen sammeln,
+  nicht blockieren.
+- **maturity-model**: Reifegrad je Seite kennzeichnen
+  (leer/Gerüst/ausgearbeitet/verifiziert).
+- **evaluation-report**: nach Taskende 3 Zeilen: geändert, verifiziert, offen.
+- **communication-style**: Verweise benennen („Plan A (plan.md)");
+  dt. IHK-Begriff + engl. Praxisbegriff.
+- **coding-style**: Best Practices des Handwerks, nicht nur Konventionen
+  des Bestands.
+- **language-selection**: `bash` als Standard für Snippets, Abweichung
+  begründen.
+- **name-discovery**: Branch `feat/…`, Skills kebab-case.
+- **skill-authoring/-evolution/-discovery, workflow**: betreffen
+  `../vibe-less`, nicht dieses Repo.
+
+Bei Konflikt mit einer Regel oben gewinnt die Regel oben; dieser Block
+gilt bis vibe-less/craft-more je Skill eine SKILL.md hat.
 
 ## Path Rules
 
@@ -171,3 +221,14 @@ Derived from this repository. Adjustable later.
 - I decide per case between piping and caching. I cache when a second pass over
   the same document is likely, when the file is large, or when several tasks need
   it. I pipe when a single pass suffices.
+
+- Build: `nix develop` + `mdbook build`. `book/` ist generiert, nie von Hand
+  anfassen. Deploy: `.github/workflows/deploy.yml`.
+- Inhaltliche Quelle für Datenschutz/Grundschutz: LF4-Seiten von
+  johannesloetzsch.github.io, referenzieren statt neu erfinden.
+- Unterrichtsstand und Zeitplan stehen in `src/plan.md` (Gantt), Zahlen nicht
+  doppelt halten. Backlog: `implementierung.md` leer, CTF/hacking aus
+  `SUMMARY.md` ausgeblendet.
+- Arbeitsablauf: plan = schnell und interaktiv, finalize = gründlich prüfen,
+  build = exakt nach vereinbartem Plan, dann bei Bedarf selbstständig und
+  zuverlässig durchziehen. Arbeitszeit des Nutzers ist die teuerste Ressource.

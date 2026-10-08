@@ -27,6 +27,8 @@
 
 ## Prüfungsvorbereitung
 
+> [Überblick Prüfungsthemen der vergangenen Jahre](./material/prüfungsaufgaben.md)
+
 Für die Prüfungsvorbereitung erscheinen nach Sichtung vergangener IHK-Prüfungen folgenden Schwerpunkte als relevant für LF11b um alle Fachkompetenzen in einem geeigneten Lernfeld abzudecken:
 
 ### Datenschutz und Datensicherheit

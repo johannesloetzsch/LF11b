@@ -1,6 +1,6 @@
 # [Hackerethik](https://www.ccc.de/de/hackerethik)
 
-[![schneeschrauber-hack](img/schneeschrauber.jpg)](https://media.c3d2.de/u/astro/m/schneeschrauber/)
+[![schneeschrauber-hack](../img/schneeschrauber.jpg)](https://media.c3d2.de/u/astro/m/schneeschrauber/)
 
 Die ethischen Grundsätze des Hackens – Motivation und Grenzen:
 

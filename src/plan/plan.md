@@ -17,7 +17,7 @@ gantt
         Praxis : 2026-11-30, 3d
 ```
 
-### Grundlagen Datenschutz und Datensicherheit
+### KW 41: Grundlagen Datenschutz und Datensicherheit
 
 06.10.:
 * Einordnung [Datenschutz und Datensicherheit](https://johannesloetzsch.github.io/LF4/dud.html)
@@ -57,7 +57,7 @@ gantt
   * [Endgerätesicherheit](https://johannesloetzsch.github.io/LF4/endger%C3%A4tesicherheit.html)
 * [Ablauf Standard-Absicherung](https://johannesloetzsch.github.io/LF4/grundschutz_methodik.html)
   * [Risikoanalyse](https://johannesloetzsch.github.io/LF4/risikoanalyse.html)
-> Gruppenarbeit "Risikoanalyse" -> IT-Grundschutz (vereinfacht) mittels [Vorlage für Praxisprojekt](./material/projektarbeit_lf11b.pdf) an eigenem Beispiel
+> Gruppenarbeit "Risikoanalyse" -> IT-Grundschutz (vereinfacht) mittels [Vorlage für Praxisprojekt](../material/projektarbeit_lf11b.pdf) an eigenem Beispiel
 
 
 ### KW43: Crypto & Auth 
@@ -68,13 +68,13 @@ gantt
     dateFormat YYYY-MM-DD
     axisFormat %d.%m.
     section Mo 19.10. (6 UE)
-        todo : 2026-10-19, 6h
+        Grundlagen TOM : 2026-10-19, 6h
     section Di 20.10. (6 UE)
-        todo : 2026-10-20, 6h
+        Verschlüsselung+Signaturen : 2026-10-20, 6h
     section Mi 21.10. (6 UE)
-        todo : 2026-10-21, 6h
+        Authentifizierung+Authorisierung : 2026-10-21, 6h
     section Do 22.10. (6 UE)
-        todo : 2026-10-22, 6h
+        Wiederholung : 2026-10-22, 6h
     section Fr 23.10. (2 + 2 UE)
         1. Klassenarbeit : crit, 26_10_23_ue56, 2026-10-23, 2h
         SOL : after 26_10_23_ue56, 2h
@@ -101,14 +101,18 @@ gantt
 > Praxis: PGP/GPG
 
 21.10.:
-* [Authentifizierung](https://johannesloetzsch.github.io/LF4/authentifizierung.html) und Autorisierung: relevante TOMs raussuchen, unterscheiden, erklären
-* [Passwörter](https://johannesloetzsch.github.io/LF4/passwoerter.html) und [Dateiberechtigungen (ACL)](https://johannesloetzsch.github.io/LF4/dateiberechtigungen.html)
+* [Authentifizierung](https://johannesloetzsch.github.io/LF4/authentifizierung.html) und Autorisierung
+  * relevante TOMs raussuchen, unterscheiden, erklären
+* [Passwörter](https://johannesloetzsch.github.io/LF4/passwoerter.html)
+* [Dateiberechtigungen (ACL)](https://johannesloetzsch.github.io/LF4/dateiberechtigungen.html)
 * [SSO](https://johannesloetzsch.github.io/LF4/sso.html), OAuth2, OIDC, SAML
 > Praxis: [FastAPI-Security](https://fastapi.tiangolo.com/tutorial/security/first-steps/), Keycloak/Authentik/Authelia
 
 22.10.:
-* Wiederholung inkl. TOM-Abfrage
-* [Endgerätesicherheit](https://johannesloetzsch.github.io/LF4/endger%C3%A4tesicherheit.html): SYS.2.1 „Allgemeiner Client“ noch präsent?
+* Wiederholung
+  * [Datenschutz & Datensicherheit](https://johannesloetzsch.github.io/LF4/dud.html)
+  * [IT-Grundschutz](https://johannesloetzsch.github.io/LF4/grundschutz.html)
+  * TOM aus [Endgerätesicherheit](https://johannesloetzsch.github.io/LF4/endger%C3%A4tesicherheit.html) und SYS.2.1 „Allgemeiner Client“
 
 23.10.:
 * Klassenarbeit (2 UE)
@@ -162,7 +166,7 @@ gantt
 * **zweite Klassenarbeit** => 19.12. (AE) bzw. 09.01. (SI)
 
 * **Projektarbeit**:
-  * Vorlage (Vorschlag): [pdf](material/projektarbeit_lf11b.pdf), [odt](material/projektarbeit_lf11b.odt)
+  * Vorlage (Vorschlag): [pdf](../material/projektarbeit_lf11b.pdf), [odt](../material/projektarbeit_lf11b.odt)
 
   * eine kleine Note für Projektplanung (insbesondere Schutzbedarfsanalyse) => SOL vom 28.11.
   * zwei kleine Noten (Projektergebnis + Mitarbeit) => Präsentation am 09.01.

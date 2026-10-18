@@ -27,7 +27,7 @@
 
 ## Prüfungsvorbereitung
 
-> [Überblick Prüfungsthemen der vergangenen Jahre](./material/prüfungsaufgaben.md)
+> [Überblick Prüfungsthemen der vergangenen Jahre](./prüfungsaufgaben.md)
 
 Für die Prüfungsvorbereitung erscheinen nach Sichtung vergangener IHK-Prüfungen folgenden Schwerpunkte als relevant für LF11b um alle Fachkompetenzen in einem geeigneten Lernfeld abzudecken:
 

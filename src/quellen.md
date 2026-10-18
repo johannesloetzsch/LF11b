@@ -55,6 +55,7 @@
 - [BSI-Standard 200-3](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/BSI_Standards/standard_200_3.pdf?__blob=publicationFile&v=2) — Risikoanalyse auf Basis von IT-Grundschutz <!-- Version 1.0, Oktober 2017 -->  <!-- geprüft: Titel, Ausgabe und Datum vom Nutzer auf Seite 1 und in der Versionshistorie des PDF bestätigt, beide Links am eigenen Rechner abgerufen. -->
 ([HTML Version](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/BSI-Standards/BSI-Standard-200-3-Risikomanagement/bsi-standard-200-3-risikomanagement_node.html))
 
+- [BSI IT-Grundschutz++](https://medien.bsi.bund.de/lagebericht/de/it-grundschutz/)
 
 <!-- - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) — Funktionen Govern, Identify, Protect, Detect, Respond, Recover. -->
 <!-- geprüft -->

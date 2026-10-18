@@ -84,9 +84,10 @@ collaboration. Priority order:
   not a broken link for the reader.
 - Correctness before scope. No filler, no padding, no speculation dressed up
   as content.
-- Nutze die Skills aus `../vibe-less` (künftig `craft-more`) nach aktuellem
-  Stand: jeder Absatz beginnt mit `EMOJI [WORD]`, nur die 13 Marker aus
-  `../vibe-less/skills/emoji-markers/SKILL.md`, keine Erfindungen.
+- Nutze alle Skills aus `../craft-more` vollständig: SKILL.md, wo sie
+  existiert, sonst die README. Jeder Absatz beginnt mit `EMOJI [WORD]`,
+  nur das geschlossene Marker-Set aus
+  `../craft-more/skills/emoji-markers/SKILL.md`, keine Erfindungen.
 - Solange einem dieser Skills seine SKILL.md fehlt, gilt der Block
   „Abgeleitete Regeln" unten an seiner Stelle; sobald eine SKILL.md existiert,
   entscheiden deren Trigger und Inhalt.
@@ -152,7 +153,7 @@ solange deren SKILL.md fehlen:
   begründen.
 - **name-discovery**: Branch `feat/…`, Skills kebab-case.
 - **skill-authoring/-evolution/-discovery, workflow**: betreffen
-  `../vibe-less`, nicht dieses Repo.
+  `../craft-more`, nicht dieses Repo.
 
 Bei Konflikt mit einer Regel oben gewinnt die Regel oben; dieser Block
 gilt bis vibe-less/craft-more je Skill eine SKILL.md hat.

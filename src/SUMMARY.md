@@ -8,6 +8,8 @@
 - [Crypto & Auth](./krypto-auth/README.md)
 - [Netzwerksicherheit](./netzwerk/README.md)
 - [Praxis](./praxis/README.md)
+
+<!--
 - [old](./old/README.md)
   - [Grundlagen](./old/grundlagen.md)
     - [Threat Models](./old/threatmodels.md)
@@ -23,7 +25,6 @@
       - [VPN](./old/vpn.md)
   - [Implementierung](./old/implementierung.md)
   - [Prüfen](./old/pruefen.md)
-<!--
   - [CTF](./ctf/README.md)
   - [Hacken](./old/hacking.md)
 -->

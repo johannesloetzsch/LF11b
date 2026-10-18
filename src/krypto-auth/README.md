@@ -64,26 +64,34 @@ Der Unterrichtsblock "Crypto & Auth" beinhaltet die folgenden Themenkomplexe:
 * [Passwörter](https://johannesloetzsch.github.io/LF4/passwoerter.html)
 * [Dateiberechtigungen (ACL)](https://johannesloetzsch.github.io/LF4/dateiberechtigungen.html)
 * [SSO](https://johannesloetzsch.github.io/LF4/sso.html)
-  * OAuth2, OIDC, SAML
-  * RADIUS
+  * SAML, OAuth2, OIDC
+  * RADIUS, EAP
 
 > **💻** Praxis: [FastAPI-Security](https://fastapi.tiangolo.com/tutorial/security/first-steps/), Keycloak/Authentik/Authelia
+
+> **📖**  PV Aktuell SI AP2 2.8.17
+>
+> SSO (SAML, OAuth2, OpenID Connect)
 
 > **📝❗** FiSi AP2 Analyse Winter 2025 Aufgabe 2 da–db
 >
 > **Passwort-Policy** der VPN-Nutzer um zwei Regeln für sicherere Passwörter ergänzen; **Multi-Faktor-Authentifizierung**: zwei weitere **Methoden neben Passwort**
 
-> **📝❗** FiSi AP2 Analyse Sommer 2022 Aufgabe 2 ab–ac
+> **📝❗** FiSi AP2 Analyse Sommer 2025 Aufgabe 4 ab–ac
 >
-> RADIUS (**AAA**) versus **PSK** am WLAN-Controller: Bedeutung der drei A-Komponenten und zwei Vorteile von RADIUS AAA
+> IoT-WLAN: Begriffe **Authentifizierung** und **Vertraulichkeit** erklärt, je ein Beispiel wie **WPA 1/2/3** sie realisieren
 
 > **📝❗** FiSi AP2 Analyse Sommer 2024 Aufgabe 4 aa–ab
 >
 > **WPA2-Personal** im Unternehmens-WLAN: drei Nachteile dieser Verschlüsselungsmethode und eine Möglichkeit zur Verbesserung
 
-> **📝❗** FiSi AP2 Analyse Sommer 2025 Aufgabe 4 ab–ac
+> **📝❗** FiSi AP2 Analyse Sommer 2022 Aufgabe 2 ab–ac
 >
-> IoT-WLAN: Begriffe Authentifizierung und Vertraulichkeit erklärt, je ein Beispiel wie **WPA 1/2/3** sie realisieren
+> RADIUS (**AAA**) versus **PSK** am WLAN-Controller: Bedeutung der drei A-Komponenten und zwei Vorteile von RADIUS AAA
+
+> **📝❗** FiSi AP2 Analyse Sommer 2022 Aufgabe 2 bc
+>
+> Fremde Endgeräte an den Netzwerkdosen verhindern: technische Möglichkeit beschreiben — **RADIUS**-Gerätedatenbank, **IEEE 802.1X**, **Port-Security**
 
 ## Wiederholung
 

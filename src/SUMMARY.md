@@ -6,6 +6,7 @@
   - [Prüfungsvorbereitung](./plan/prüfungsaufgaben.md)
 - [IT-Grundschutz](./grundschutz/README.md)
 - [Crypto & Auth](./krypto-auth/README.md)
+  - [Grundlagen](./krypto-auth/grundlagen.md)
 - [Netzwerksicherheit](./netzwerk/README.md)
 - [Praxis](./praxis/README.md)
 

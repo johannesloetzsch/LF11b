@@ -5,7 +5,7 @@ Der Unterrichtsblock "Crypto & Auth" beinhaltet die folgenden Themenkomplexe:
 ## Grundlagen
 <!-- Wiederholung aus LF4 und ZQL -->
 
-* Überleitung vom [Datenschutzrecht](https://johannesloetzsch.github.io/LF4/datenschutz.html) und organisatorischen Maßnahmen zu [TOM](https://johannesloetzsch.github.io/LF4/tom.html)
+* Überleitung vom [Datenschutzrecht](https://johannesloetzsch.github.io/LF4/datenschutz.html) und organisatorischen Maßnahmen zu [TOM](https://johannesloetzsch.github.io/LF4/tom.html#14-anforderungen-an-die-sicherheit-der-datenverarbeitung-nach--64-bdsg)
 * Wiederholung Krypto-Grundlagen
   * symmetrische vs. asymmetrische [Kryptographie](https://johannesloetzsch.github.io/LF4/kryptographie.html)
   * Hashes
@@ -22,7 +22,7 @@ Der Unterrichtsblock "Crypto & Auth" beinhaltet die folgenden Themenkomplexe:
 
 > **📝❗** FiSi AP2 Konzeption Sommer 2022 Aufgabe 3
 >
-> Kamera-Vergleichstabelle: Verschlüsselungsmethode (**WEP, WPA, WPA2, WPA3**) und **passwortgeschützter Zugriff** als Auswahlkriterium
+> Kamera-Vergleichstabelle: Verschlüsselungsmethode (**WEP, WPA, WPA2, WPA3**) und „**passwortgeschützter Zugriff**“ als Auswahlkriterium
 
 
 ## Verschlüsselung und Signaturen

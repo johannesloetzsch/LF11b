@@ -79,9 +79,18 @@ Lokal:
 > 
 > Welchen Zweck erfüllen Sie?
 >
-> In welchem Zusammenhang zu Verschlüsselung stehen Hash-Funktionen?
->
-> Welche Anforderungen an kryptografisch starke Hash-Funktionen gibt es?
+> In welchem Zusammenhang zu Verschlüsselung und Signaturen stehen Hash-Funktionen?
+
+-> Hashes sind **keine Verschlüsselung**!
+
+-> Signaturen werden üblicherweise über Hash der Daten berechnet
+
+> **💬❓**  Welche Anforderungen an kryptografisch starke Hash-Funktionen gibt es?
+
+* **feste Länge** des Hash-Werts
+* Urbildresistenz (**Einweg-Funktion**): aus dem Hash lässt sich keine Eingabe berechnen
+* zweite Urbildresistenz: zu einer <u>bekannten</u> Eingabe **kein zweites Dokument mit demselben Hash** finden
+* **Kollisionsresistenz**: <u>überhaupt kein</u> Paar verschiedener Eingaben mit demselben Hash finden
 
 
 ### „Codierung“

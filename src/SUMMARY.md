@@ -7,6 +7,8 @@
 - [IT-Grundschutz](./grundschutz/README.md)
 - [Crypto & Auth](./krypto-auth/README.md)
   - [Grundlagen](./krypto-auth/grundlagen.md)
+  - [TLS](./krypto-auth/tls.md)
+  - [Zertifikate & PKI](./krypto-auth/pki.md)
 - [Netzwerksicherheit](./netzwerk/README.md)
 - [Praxis](./praxis/README.md)
 

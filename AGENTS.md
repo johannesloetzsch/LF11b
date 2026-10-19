@@ -1,235 +1,73 @@
 # AGENTS.md
 
-Working agreement for AI assistance in this repository.
+Arbeitsvereinbarung für KI-Unterstützung in diesem Repository.
 
 LF11b — Betrieb und Sicherheit vernetzter Systeme gewährleisten.
-Fachinformatiker Systemintegration, third year of training.
+Fachinformatiker Systemintegration, drittes Ausbildungsjahr.
 
-## Resource Principles
+## Boot
 
-My working time and token usage are the scarcest resources in this
-collaboration. Priority order:
+- Zu Beginn jeder Session lädst du alle Skills aus `../craft-more` (`SKILL.md`, sonst `README`) und fragst den Nutzer nach seinem Ziel.
 
-1. My working time
-2. Token usage
-3. Time until the next visible progress update
+## Unterrichts- & Tempo-Default
 
-- **No scope creep.** Do only what was commissioned. Do not pre-research what
-  might be needed later, however likely it seems.
-- **Plan before building.** Verify the planned approach actually solves the
-  task. Cut unnecessary steps before spending time on them.
-- **Compress results.** Never output raw research. Tables over prose, findings
-  over recommendations. "Not found" is a complete result, reported in one
-  sentence.
-- **Ask when genuinely unclear.** Act when clear. Ask when a translation, a
-  requirement or a decision is ambiguous or hard to reverse. Questions outside
-  the current task are collected and raised later, never blocking.
-- **Announce before non-trivial work.** One sentence on what I am doing and
-  why. Skip this for trivial steps.
-- **Flag unexpected state changes.** Tell me when repository state changes in
-  ways I did not cause, for example an edited `.gitignore`.
+- Im Plan-Modus giltst du per Default als im Unterricht — volle Zurückhaltung: read-only, keine Eigeninitiative, Antwort sofort und knapp. Das endet nur, wenn der Nutzer es ausdrücklich widerruft; eine ausdrückliche Freigabe (Go) hebt die Beschränkung nur für den benannten Schritt auf.
+- Immer fragen — egal ob Unterricht oder nicht: kein Schreiben, kein Git, keine unbeauftragte Aktion ohne wörtliche Freigabe des konkreten Schritts.
+- Im Unterricht und im Plan-Modus antwortest du doppelt und dreifach zügig.
+- „Schnell" heißt kurze Antwortlatenz und interaktives Arbeiten — nie „arbeite autonom fertig".
+- **Finalize** heißt: im Plan-Modus früh ein Diff präsentieren. Danach folgen nur noch Build-Modus + `go N files`.
+- **`go N files` / `write N files`** heißt: die N im Plan-Modus finalisierten Diffs schreiben, dann Stop — danach nur eine Minimalzusammenfassung des Ergebnisses, dann zurück in den Plan-Modus.
 
-## Your Rules
+## Interaktion & Freigabe
 
-- `AGENTS.md` is the only file I may write without being asked.
-- `AGENTS.md` holds two kinds of content. Rules are binding and need our
-  agreement. Notes are supporting material such as tool hints and pointers to
-  data. I may add a note on my own initiative as long as I show you the diff
-  clearly; a rule always waits for your approval.
-- One-time grants never go into this file, whatever they are worded like. They
-  authorise one commissioned task and expire as soon as that task is done, in
-  any case no later than the commit that carries it. The grant is recorded in
-  that commit, not here. If a grant should become permanent, I propose a
-  standing rule and let you decide.
-- A grant I act on names the task, what it allows and what ends it. If one of
-  the three is missing, the grant is invalid and I ask. A permission whose
-  expiry depends on my own judgement is never valid.
-- When two rules in this file conflict, I name the conflict and ask how to
-  resolve it, instead of resolving it on my own initiative.
-- Plan mode is read-only. Execution happens only in build mode and always on
-  your explicit instruction. Return to plan mode as soon as the agreed task is
-  done.
-- Plan before every build. Grill unclear decisions first. Execute only what was
-  agreed, nothing more.
-- Work with minimum privileges.
-- Explain why a command needs permission before requesting it. Prefer read-only
-  alternatives. Never combine unrelated write operations in one command. Never
-  use a relative `cd`, especially not `cd ..`, to reach a working directory.
-  Use absolute paths or the workdir parameter so the scope is obvious.
-- `main` and `dev` belong to you. No checkout, no commit, no merge, no push.
-- Every write task gets its own feature branch and its own clone under `./.tmp/`.
-  Independent tasks branch from `main`. Sequentially dependent tasks may chain
-  from the previous successful branch, so that only the last branch needs
-  merging. Any other branching from a feature branch needs your explicit
-  consent. Exception: minimal diffs that are trivial to review may go straight
-  into `main`, unstaged, and only where you explicitly request a one-time
-  exception for that case. I never request one myself and never consider a diff
-  eligible on my own initiative. `AGENTS.md` always qualifies.
-- Put a rule into this file as soon as we agree on it, unstaged. Staging is
-  yours.
-- Publish a link only after you have checked it yourself. Everything else stays
-  an HTML comment in the source, ready for a later review.
-- Committing on the task's own feature branch is expected once the work is
-  done. Never merge, push, amend existing history, or change branches on my
-  own initiative.
-- Existing repository content is assumed correct until you commission a check.
-  A systematic proofread is not implied by this rule.
-- Mark every source as verified or unconfirmed. Verified means title, publisher,
-  edition and year are confirmed from an authoritative source, either the
-  document itself or an official secondary source such as a parliamentary
-  record. It does not require that the document can be retrieved from this
-  machine. Content that is published as an mdBook may only cite verified sources.
-  Record a retrieval failure from this machine in an HTML comment at the entry
-  rather than by downgrading the source, because a host that is blocked here is
-  not a broken link for the reader.
-- Correctness before scope. No filler, no padding, no speculation dressed up
-  as content.
-- Nutze alle Skills aus `../craft-more` vollständig: SKILL.md, wo sie
-  existiert, sonst die README. Jeder Absatz beginnt mit `EMOJI [WORD]`,
-  nur das geschlossene Marker-Set aus
-  `../craft-more/skills/emoji-markers/SKILL.md`, keine Erfindungen.
-- Solange einem dieser Skills seine SKILL.md fehlt, gilt der Block
-  „Abgeleitete Regeln" unten an seiner Stelle; sobald eine SKILL.md existiert,
-  entscheiden deren Trigger und Inhalt.
-- Am Ende eines Build-Schritts fordere ich auf, gemeinsam in den
-  Plan-Modus zurückzukehren; erst nach deiner Anweisung folgt der nächste Build.
-- Rückfragen stelle ich über den interaktiven Frag-Dialog (question-Tool):
-  mehrere Fragen in einer Abfrage, je mit Optionen. Unklarheiten immer fragen.
-- Todos: am Übergang plan → build (finalize) lege ich die Todos für den
-  vereinbarten Build an bzw. aktualisiere sie; am Ende des Builds sind
-  Erlediges abgehakt. Zurück im Plan schlage ich ein Review vor. Wenn deine
-  Inhalte commited sind, entferne ich abgehakte Todos.
-- Wenn ich dich zum Go auffordere, ist das der Finalize Step: ich fasse dann
-  alle geplanten Schritte, Tool-Aufrufe und den geschätzten Ressourcenbedarf
-  zusammen, bevor du freigibst.
+- Default ist read-only: Antwort, Erklärung, Diff-Vorschlag.
+- `STOP`/`halt` bedeutet: genau eine Textantwort, null Tool-Calls, dann warten.
+- Jede Aktion ist durch eine offene APPROVE gedeckt; die Freigabe nennt Artefakte und die Anzahl der erlaubten Schritte. Ein Go bindet nur an das Benannte.
+- Null Autonomie: keine eigenen Handlungen, kein Vorarbeiten, keine unbeauftragten Befehle.
+- Vor jedem Tool-Call: `Goal → Step (current/allowed)`.
+- Visibler Fortschritt: Goal-Kette (Hauptziel → Meilenstein → Einheit) sichtbar halten, `todowrite` konsistent.
+- Bei Unklarheit fragen; Handlungen oder Annahmen ohne Freigabe als `WARN`/`DECIDE` melden.
+- Rückfragen immer über den interaktiven Frag-Dialog (question-Tool) — mehrere Fragen, je mit Optionen — und dann auf die Antwort warten.
 
-## Baseline Rules
+## Rollenteilung & Git
 
-Derived from this repository. Adjustable later.
+- `main` und `dev` gehören dem Nutzer: kein checkout, kein commit, kein merge, kein push.
+- Kein `git` außer lesenden Befehlen wie `git log`, `git status`, `git diff` u. ä.
+- Staging und Commit sind Aufgabe des Nutzers. Nie stagen, nie committen.
+- `AGENTS.md` ist die einzige Datei, die du ungefragt schreiben darfst — und sie hat zwei Inhaltstypen: Regeln (bindend, brauchen Zustimmung) und Hinweise (unterstützend, mit klarem Diff beigesteuert).
+- Einmal-Freigaben kommen nie in diese Datei; sie gelten nur für die eine beauftragte Aufgabe.
+- Eine Freigabe, auf die du dich stützt, benennt Aufgabe, Erlaubnis und Ende. Fehlt eines davon, ist sie ungültig und du fragst.
+- Bei Regelkonflikt benenne den Konflikt und frage, statt selbst zu entscheiden.
+- Vor Befehlen: Zweck erklären, Freigabe erbitten, read-only bevorzugen, nie Unzusammenhängendes in einen Schreibbefehl bündeln, kein relatives `cd` — absolute Pfade oder `workdir`.
 
-- Write correct German for public content. Technical terms bilingual: the
-  English term used in practice plus the German term used in IHK exams. For
-  example *Schutzbedarfsfeststellung* / *protection need assessment*.
-- Follow repository conventions: Mermaid for diagrams, blockquotes instead of
-  admonitions, `bash` or `samp` for code, sources cited with publisher and
-  version.
-- No comments inside exercise snippets.
-- Announce the diff scope before substantial content changes.
-- Before every commit on a feature branch, verify that the new content is
-  correct, especially technical terms, figures, version numbers and legal
-  references.
-- Prefer concise answers over complete ones. Say what is needed, then stop.
-- Keep me focused. Do not widen the topic, add unrequested context, or repeat
-  what I already know.
-- Do not be patronising. Applies to proposals as well as to text for students.
-- Source lists in `src/quellen.md` live as HTML comments. One entry is
-  published by removing only its comment markers, its metadata stays a comment.
+## Repo-Fakten
 
-## Abgeleitete Regeln (vibe-less → craft-more, Stand README)
+- Build: `nix develop` + `mdbook build`. `book/` ist generiert, nie von Hand anfassen. Deploy über `.github/workflows/deploy.yml`.
+- Inhaltliche Quelle für Datenschutz/Grundschutz: LF4-Seiten von johannesloetzsch.github.io — referenzieren statt neu erfinden.
+- Unterrichtsstand und Zeitplan stehen in `src/plan.md` (Gantt); Zahlen nicht doppelt halten. `implementierung.md` ist leerer Backlog; CTF/hacking aus `SUMMARY.md` ausgeblendet.
+- `src/` ist die mdBook-Quelle; `src/SUMMARY.md` bestimmt allein die Navigation und welche Seiten veröffentlicht werden.
+- `./.tmp/` gehört dir (gitignored): du darfst dort schreiben und bei Bedarf neue Ordner anlegen — vorher Bescheid geben. Nie Projektinhalt.
 
-Direkte Übertragung der im README geplanten Skills auf dieses Repo,
-solange deren SKILL.md fehlen:
+## craft-more-Baseline
 
-- **plan-build-workflow**: Plan-Modus read-only, Build nur auf Anweisung.
-- **cost-budget-guardrails**: Arbeitszeit und Tokens zuerst; eine Maßnahme
-  pro Schritt, kleinste prüfbare Portion.
-- **web-research**: lokal (`rg`) → `curl`-Probes → max. 1 Suche; PDFs pipen.
-- **info-source-index**: erst `quellen.md`, dann amtliche Quelle, dann Portal.
-- **environment-discovery**: nur lesend erkunden; Cache in `./.tmp/.cache/`.
-- **uncertainty-and-verification**: Unsicherheit benennen; verifizieren vor
-  Fix, Commit und Quellenangabe.
-- **step-sequencing**: plan schnell/interaktiv → finalize gründlich →
-  build exakt nach vereinbartem Plan.
-- **interaction-guard**: bei Unklarheit fragen; offene Fragen sammeln,
-  nicht blockieren.
-- **maturity-model**: Reifegrad je Seite kennzeichnen
-  (leer/Gerüst/ausgearbeitet/verifiziert).
-- **evaluation-report**: nach Taskende 3 Zeilen: geändert, verifiziert, offen.
-- **communication-style**: Verweise benennen („Plan A (plan.md)");
-  dt. IHK-Begriff + engl. Praxisbegriff.
-- **coding-style**: Best Practices des Handwerks, nicht nur Konventionen
-  des Bestands.
-- **language-selection**: `bash` als Standard für Snippets, Abweichung
-  begründen.
-- **name-discovery**: Branch `feat/…`, Skills kebab-case.
-- **skill-authoring/-evolution/-discovery, workflow**: betreffen
-  `../craft-more`, nicht dieses Repo.
+- Nutze alle Skills aus `../craft-more` vollständig: `SKILL.md`, wo sie existiert, sonst die `README`.
+- Generisches kommt aus `../craft-more`; dieses Repo hält nur die LF11b-Spezifika. Die Kernblöcke oben sind die hier verankerte Fassung der craft-more-Regeln (Approval, Announcement, Visible Progress, Ask-when-in-doubt, plan-build).
+- `../craft-more/AGENTS.md` ist die Referenz für die generische Arbeitsweise.
+- Jeder Absatz beginnt mit `EMOJI [WORD]` aus dem geschlossenen Marker-Set in `../craft-more/skills/emoji-markers/SKILL.md` — keine Erfindungen.
 
-Bei Konflikt mit einer Regel oben gewinnt die Regel oben; dieser Block
-gilt bis vibe-less/craft-more je Skill eine SKILL.md hat.
+## Konventionen
 
-## Path Rules
+- Öffentliche Inhalte in korrektem Deutsch. Fachbegriffe bilingual: der englische Praxisbegriff plus der deutsche IHK-Begriff — z. B. *Schutzbedarfsfeststellung* / *protection need assessment*.
+- Repo-Konventionen: Mermaid für Diagramme, Blockquote statt Admonition, `bash` für Code, Quellen mit Verlag und Version.
+- Keine Kommentare in Übungs-Snippets.
+- Vor **allen** Inhaltsänderungen den Diff **anzeigen**.
+- Kein Slop: keine erfundenen Inhalte. Wenn der Nutzer nach etwas fragt, gibst du ehrlich das Wissen, das du hast — sonst fragst du nach.
+- Antworten und Repo-Inhalte lieber minimal; ausführlicher erst auf ausdrücklichen Wunsch.
+- Quellenlisten in `src/quellen.md` liegen als HTML-Kommentare. Ein Eintrag wird veröffentlicht, indem nur seine Kommentar-Marker entfernt werden; seine Metadaten bleiben Kommentar.
 
-- `./.tmp/` is scratch space for feature branch clones and for cached source
-  files. Never treat it as project content.
-- `book/` is generated output. Never edit it by hand.
-- `src/` is the mdBook source. `src/SUMMARY.md` defines the navigation and is
-  the only place that determines which pages are published.
-- Local clones are shallow by default. Use `file://` if a shallow clone is
-  genuinely needed, since `--depth` is ignored for local clones.
-- After adding a git remote, run `git fetch` before expecting any
-  remote-tracking branch to exist.
-- A merge is verified when the intended file content is present in `main`, not
-  when the original commit SHA is reproduced.
+## Antwortkanal
 
-## Notes
-
-- Everything in this section is a cache of measured behaviour, not a
-  specification. The figures come from a single measurement session and are
-  assumptions, not facts. Re-evaluate them whenever the tooling changes
-  underneath us: a provider changes an API, its limits or its pricing, a tool is
-  replaced, or a recorded block is lifted. A single call that exceeds its
-  recorded cost is already reason enough to redo the measurement. If following a
-  note here costs more resources than the task it is meant to save, the note is
-  wrong, so change it or delete it. Acting on a stale assumption costs more than
-  having no assumption at all.
-- A web search costs roughly 8k tokens per call, measured in this session and
-  therefore an order of magnitude, not a fixed price. `numResults` and
-  `contextMaxCharacters` do not limit the returned excerpts. Budget one search per
-  question and make it count, because a second one costs as much as the first.
-- Check whether a URL resolves before searching for it: `curl -sIL -o /dev/null
-  -w '%{http_code} %{content_type}'`. Probing six candidate URLs in one call
-  costs about as much as one search. Blocks are per domain, so a single probe
-  establishes whether a whole publisher is reachable.
-- Reachability of the publisher's domain is a precondition for a task, not a
-  detail. If the domain is blocked from this machine, a search can at best
-  produce an unverified link, and it is often not worth 8k.
-- Two domains are blocked from this machine: `bsi.bund.de` answers every path
-  with HTTP 400, including plain pages and with a browser header, and
-  `eur-lex.europa.eu` resolves but times out. An unreachability here is not a
-  broken link for the reader, so such a source may still be cited, marked as
-  not verifiable from here.
-- Prefer `curl` plus a local filter over a search whenever the document is
-  reachable over HTTP. Downloading one document and filtering it locally three
-  times cost about as much as a single search, and the passes after the first
-  are nearly free.
-- A source entry needs title, publisher, edition and year, and all four are on
-  the first page. `pdftotext -f 1 -l 1 -layout - -` instead of the whole
-  document. Anchor on words like `Auflage` or `Zeitrichtwert` with `rg` instead
-  of dumping a line window.
-- Read the edition or date inside the excerpt, not only the title. German
-  training documents rank by popularity, so searches surface superseded plans: a
-  framework plan from 1997 came up for the current KMK query.
-- `rg` obeys `.gitignore`, and `.tmp/` is ignored here, so cached sources need
-  `rg --no-ignore` or an explicit path. Getting this wrong looks like an empty
-  result rather than an error.
-- Read a PDF without storing it. Pipe it through the text extractor and read from
-  stdout: `curl -sL URL | pdftotext -layout - -`. The `-layout` switch preserves
-  table columns. The `#ai` development shell provides `pdftotext`.
-- When a document or file is needed more than once, cache it under
-  `./.tmp/.cache/` and read it from there. Keep the original file name, because
-  the source citation depends on it.
-- I decide per case between piping and caching. I cache when a second pass over
-  the same document is likely, when the file is large, or when several tasks need
-  it. I pipe when a single pass suffices.
-
-- Build: `nix develop` + `mdbook build`. `book/` ist generiert, nie von Hand
-  anfassen. Deploy: `.github/workflows/deploy.yml`.
-- Inhaltliche Quelle für Datenschutz/Grundschutz: LF4-Seiten von
-  johannesloetzsch.github.io, referenzieren statt neu erfinden.
-- Unterrichtsstand und Zeitplan stehen in `src/plan.md` (Gantt), Zahlen nicht
-  doppelt halten. Backlog: `implementierung.md` leer, CTF/hacking aus
-  `SUMMARY.md` ausgeblendet.
-- Arbeitsablauf: plan = schnell und interaktiv, finalize = gründlich prüfen,
-  build = exakt nach vereinbartem Plan, dann bei Bedarf selbstständig und
-  zuverlässig durchziehen. Arbeitszeit des Nutzers ist die teuerste Ressource.
+- Die Antwort ist die Nachricht. Ein Tool beobachtet oder handelt — es trägt nie eine Antwort. Kein `echo`, kein `cat`, kein Kommando als Sprachrohr.
+- Aussagen an den Nutzer stehen immer direkt im Reply als Prosa. Vor jedem Tool-Call prüfen: dient er einem benannten read-only-Zweck, oder versuchst du gerade, deine Antwort durchzuschicken? Letzteres streichen.
+- Keine Tool-Schleife: wiederholte gleichgerichtete Calls ohne sichtbaren Fortschritt → sofort stoppen und antworten.
+- Ansprache ist Mensch, nicht Shell: normale Prosa, kein Log-Ton; Marker sind Formatierung, kein Terminal-Emulator.

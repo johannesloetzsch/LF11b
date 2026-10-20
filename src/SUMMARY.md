@@ -9,6 +9,8 @@
   - [Grundlagen](./krypto-auth/grundlagen.md)
   - [TLS](./krypto-auth/tls.md)
   - [Zertifikate & PKI](./krypto-auth/pki.md)
+  - [Authentifizierung](./krypto-auth/authentifizierung.md)
+  - [Autorisierung](./krypto-auth/autorisierung.md)
 - [Netzwerksicherheit](./netzwerk/README.md)
 - [Praxis](./praxis/README.md)
 

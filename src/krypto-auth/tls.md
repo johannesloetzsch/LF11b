@@ -1,8 +1,18 @@
 # [SSL/TLS](https://de.wikipedia.org/wiki/Transport_Layer_Security)
 
+> **❓❗** Was ist TLS und warum wird es benötigt?
+>
+> Wie würden Sie TLS im [OSI-Modell einordnen](https://en.wikipedia.org/wiki/Transport_Layer_Security)?
+
+<img src="../img/tls_osi.svg" style="height: 50vh"/>
+
+<!-- TLS and SSL do not fit neatly into any single layer of the OSI model or the TCP/IP model. TLS runs "on top of some reliable transport protocol (e.g., TCP), which would imply that it is above the transport layer. It serves encryption to higher layers, which is normally the function of the presentation layer. However, applications generally use TLS as if it were a transport layer, even though applications using TLS must actively control initiating TLS handshakes and handling of exchanged authentication certificates. -->
+
+
+
 ## Grundlagen (TLS 1.2)
 
-> **❓❗** Was ist TLS und wie funktioniert es?
+> **❓❗** Wie funktioniert TLS?
 
 > **📝❗** FiAE AP2 Planung Winter 2022 Aufgabe 4c
 
@@ -25,6 +35,9 @@ sequenceDiagram
     Server->Client: mit AES Session Key verschlüsselte Datenübertragung
 ```
 <!-- statt „Session Keys“ korrekter: Premaster-Secret bei RSA vom Client erzeugt; daraus wird das Master-Secret abgeleitet, daraus die Schlüssel (RFC 5246). -->
+
+> **💬❓** Wie würden Sie anhand des TLS 1.2 Sequenzdiagramms „**Hybride Verschlüsselung**“, sowie „**CA**“ und „**Zertifikat**“ erklären?
+
 
 ## TLS 1.3
 

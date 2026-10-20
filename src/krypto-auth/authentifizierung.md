@@ -84,6 +84,8 @@ Für Besitzfaktoren sollte möglichst [**Challenge-Response**](https://de.wikipe
 ### Schlüssel und Schnittstellen
 
 - **SSH-Key** — privater Schlüssel im Token/TPM ist ein starker Besitzfaktor; als Datei kopierbar und nur durch eine Passphrase geschützt.
+- **TLS-Client-Zertifikat (mutual TLS)** — X.509-Zertifikat mit privatem Schlüssel, idealerweise im TPM oder Token; der Server prüft Kette, Gültigkeit und Sperrstatus. Typisch für VPN, API und Service-to-Service.
+- **GPG-/OpenPGP-Schlüssel** — privater Schlüssel im Keyring oder auf OpenPGP Card; signiert eine Challenge. Für Login unüblich, für Signaturen und E-Mail verbreitet; Vertrauen über Web of Trust oder eigene Richtlinie.
 - **PKCS#11** — API für Schlüssel in HSM und Smartcard; ob sie exportierbar sind, bestimmt das Token.
 
 ### Credential-Protokolle
@@ -112,7 +114,7 @@ Für Besitzfaktoren sollte möglichst [**Challenge-Response**](https://de.wikipe
 
 ### Herausforderungen
 
-- Der IdP ist Single Point of Failure und attraktives Angriffsziel.
+- Der Identity Provider (IdP) ist Single Point of Failure und attraktives Angriffsziel.
 - Zentrales Abmelden (Single Logout) ist über verschiedene Protokolle schwer.
 - Kurze, gebundene und widerrufbare Tokens sind aufwendig; gestohlene Tokens bleiben sonst gültig.
 - Ein **kompromittiertes Konto öffnet viele Dienste**; MFA/FIDO2 und Monitoring sind Pflicht.
@@ -120,7 +122,7 @@ Für Besitzfaktoren sollte möglichst [**Challenge-Response**](https://de.wikipe
 
 ### Protokolle
 
-- **OpenID Connect** — Identitätsschicht auf OAuth 2.0
+- **OpenID Connect** (OIDC) — Identitätsschicht auf OAuth 2.0
   - das ID Token (JWT) meldet die Identität
   - Häufige Fehlannahme: OAuth2 authentifiziert nicht — dafür ist OIDC da
   - typisch für Web- und App-SSO

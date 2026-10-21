@@ -111,8 +111,19 @@ gantt
 22.10.:
 * Wiederholung
   * [Datenschutz & Datensicherheit](https://johannesloetzsch.github.io/LF4/dud.html)
+    * Gefährdungen, Malware (Vektoren, Payload)
   * [IT-Grundschutz](https://johannesloetzsch.github.io/LF4/grundschutz.html)
-  * TOM aus [Endgerätesicherheit](https://johannesloetzsch.github.io/LF4/endger%C3%A4tesicherheit.html) und SYS.2.1 „Allgemeiner Client“
+    * Basis-, Kern- und Standardabsicherung
+    * Schutzbedarfsanalyse -> 6 Schadensszenarien
+    * Risikobehandlung
+  * TOM
+    * [Endgerätesicherheit](https://johannesloetzsch.github.io/LF4/endger%C3%A4tesicherheit.html) und SYS.2.1 „Allgemeiner Client“
+    * Zutritts-, Zugangs- und Zugriffskontrolle
+  * Kryptogrundlagen
+  * TLS 1.2
+  * Authentifizierung
+  * Autorisierung
+    * Least Privilege, ACL, RBAC, OAauth2
 
 23.10.:
 * Klassenarbeit (2 UE)

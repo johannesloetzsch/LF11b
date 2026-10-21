@@ -11,6 +11,16 @@ Least Privilege heißt: Ein Konto, ein Dienst oder ein Prozess bekommt nur die R
 
 Das begrenzt den Schaden bei einer Kompromittierung, weil ein Angreifer nicht die Rechte des gesamten Systems erbt. Es verhindert außerdem versehentliche Änderungen, macht Rechte prüfbar und ist die Grundlage für Service-Accounts, Datenbankbenutzer, enge `sudo`-Regeln und Container ohne root.
 
+### Umsetzung
+
+- Minimale Zugriffsrechte pro Datei
+- Kein unnötiges arbeiten als Administrator
+- Getrennete Nutzer für verschiedene Kontexte
+- Nur notwendige Gruppenzugehörigkeiten vergeben
+- `sudo` nur für konkrete Befehle einsetzen und `/etc/sudoers` einschränken
+- Je ein eigener unprivilegierter Nutzer pro Dienst
+- Delegierte Autorisierung mit minimalen Scopes
+
 
 ## ACL
 

@@ -5,6 +5,7 @@
   - [Plan](./plan/plan.md)
   - [Prüfungsvorbereitung](./plan/prüfungsaufgaben.md)
 - [IT-Grundschutz](./grundschutz/README.md)
+  - [Schutzbedarfsanalyse](./grundschutz/schutzbedarfsanalyse.md)
 - [Crypto & Auth](./krypto-auth/README.md)
   - [Grundlagen](./krypto-auth/grundlagen.md)
   - [TLS](./krypto-auth/tls.md)

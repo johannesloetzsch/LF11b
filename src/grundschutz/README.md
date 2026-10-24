@@ -39,6 +39,10 @@
 >
 > **Briefgeheimnis**: unter welcher Bedingung ein Spamfilter oder der Administrator eine Firma Mails auf unerwünschten Inhalt untersuchen darf
 
+> **📝❗** FiSi AP2 Konzeption Sommer 2026 Aufgabe 3 d
+>
+> **Datenschutz bei Cloud-Speicherung**: besonders schützenswerte personenbezogene Daten und zugangsrelevante Geheimnisse nur verschlüsselt speichern; TOM für Verschlüsselung bei Übertragung und im Ruhezustand; AVV nach Art. 28 DSGVO; Serverstandort EU
+
 
 ## Gefährdungen
 

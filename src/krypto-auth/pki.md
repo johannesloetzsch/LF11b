@@ -109,6 +109,10 @@ Dateiformate:
 >
 > VPN-Produktentscheidung: **X.509-Zertifikate** für gegenseitige Authentifizierung versus hinterlegte Public-Keys; Relevanz hardware-unterstützter **Krypto-Algorithmen**
 
+> **📝❗** FiSi AP2 Konzeption Sommer 2026 Aufgabe 2 aa
+>
+> **Aufgaben einer Certificate Authority (CA)**: zwei Aufgaben erläutern, z. B. Identitätsprüfung, Zertifikatsausstellung, Statusverwaltung per CRL/OCSP, Lebenszyklus-Management
+
 
 ## Praxis
 

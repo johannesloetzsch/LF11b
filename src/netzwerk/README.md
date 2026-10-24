@@ -43,6 +43,14 @@ Der Unterrichtsblock "Netzwerksicherheit" beinhaltet die folgenden Themenkomplex
 >
 > **Stateful Packet Inspection** versus Paketfilter unterscheiden, **Firewall-Regeln**-Tabelle vervollständigen, zwei **NGFW**-Vorteile gegenüber klassischem Paketfilter
 
+> **📝❗** FiSi AP2 Analyse Sommer 2026 Aufgabe 2 aa–ac
+>
+> **Router-Aufgaben** nennen; **Grenzen einer Firewall** erklären; **SPI** und **NGFW** unterscheiden
+
+> **📝❗** FiSi AP2 Analyse Sommer 2026 Aufgabe 2 ba–bb
+>
+> **Firewall-Regeln** für VPN-Zugriff und internes Netz vervollständigen: Ports 80/443, DNS 53, SMTP 465/587, IMAPS 993, Default Deny
+
 
 ## Reverse-Proxy
 
@@ -129,3 +137,7 @@ Der Unterrichtsblock "Netzwerksicherheit" beinhaltet die folgenden Themenkomplex
 > **📝❗** FiSi AP2 Konzeption Sommer 2025 Aufgabe 2 f
 >
 > Netzwerksicherheit als Testbereich eines Sicherheits-Dienstleisters: **Penetrationstest** durch simulierte Angriffe und **Netzwerksicherheitsprüfung** — offene **Ports** und aktive **Dienste** sowie **Firewall**- und Routerkonfiguration; dazu **Logs** auswerten, **Malware**-Prüfung, Prüfung gemäß **Richtlinien** und simulierte **Social-Engineering-Tests**
+
+> **📝❗** FiSi AP2 Analyse Sommer 2026 Aufgabe 3 a–d
+>
+> **MitM**, **Monitoring-Port**, **Wireshark**, **ARP-Poisoning**, **Port-Security**: Angriff, Indizien im Paketmitschnitt, Configured/Sticky MAC, Port-Deaktivierung

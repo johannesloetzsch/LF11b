@@ -26,3 +26,5 @@ Vorgänger-LFs vorausgesetzt und nicht erneut behandelt.
 | S25 Analyse | DNS, DHCP, LinkAggregation, MQTT\*, SpanningTree | — | X.509 | Subnetting\*, VLAN, Routing, SharedMedium, NAT, IPv6, DMZ, Firewalls, VPN, WLAN, ARP, Datenrate\* |
 | W25 Konzeption | MixAndMatch, Badewannenkurve, BIOS/UEFI, Performance-Bottleneck, DB-Admin, Code-Debugging, Modulo\*, Testverfahren\*, Backup, RAID | TOM | — | — |
 | W25 Analyse | SLA, QoS | — | Passwortrichtlinien, MFA | Subnetting\*, Routing, NAT, VPN, VLAN (Router-on-a-stick, dot1q), SharedMedium, SFP |
+| S26 Konzeption | Netzteilleistung\*, GRUB\*, Load Balancer, DDoS, Cloud-Modelle, RTO/RPO, Verfügbarkeit, Code-Debugging\*, Arrays\*, Prozessabbruch\* | UEFI/BIOS-Härtung, TOM, Datenschutz, AVV, Serverstandort | CA, TLS-Handshake, Verschlüsselung (Cloud) | — |
+| S26 Analyse | redundante WAN-Anbindung, VRRP, Split-Horizon-DNS, Reverse Proxy, Dual-Stack, DHCPv6, DNS, DHCP, IPv6, DNS-Server-Fehler | — | — | Subnetting\*, Broadcast, private IPv4, Router, Firewall-Grenzen, SPI/NGFW, Firewall-Regeln, MitM, Monitoring-Port, ARP-Poisoning, Port-Security |

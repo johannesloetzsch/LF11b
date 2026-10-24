@@ -18,6 +18,10 @@
 
 > **📝❗** FiAE AP2 Planung Winter 2022 Aufgabe 1d
 
+> **📝❗** FiSi AP2 Konzeption Sommer 2026 Aufgabe 2 ab
+>
+> **Ablauf des TLS-Handshakes**: Client Hello, Server Hello mit Zertifikat, Zertifikatsprüfung, Schlüsselaustausch, Session Key
+
 ```mermaid
 sequenceDiagram
     participant Client

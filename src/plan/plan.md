@@ -139,7 +139,7 @@ gantt
     section Mo 26.10. (6 UE)
         Firewall : 2026-10-26, 6h
     section Di 27.10. (6 UE)
-        VLAN : 2026-10-27, 6h
+        VLAN + WLAN : 2026-10-27, 6h
     section Mi 28.10. (6 UE)
         VPN : 2026-10-28, 6h
     section Do 29.10. (3 UE)
@@ -160,6 +160,9 @@ gantt
   * Traffic-Trennung, Verkleinerung der Broadcast-Domäne
   * L3-Switching, Router-on-a-stick, IEEE 802.1Q
   * VLAN-Hopping
+* WLAN
+  * SSID, BSSID, Kanäle, hidden SSID, WLAN-Scan
+  * WPA2/WPA3, Enterprise (EAP/RADIUS)
 
 28.10.:
 * [VPN](https://johannesloetzsch.github.io/LF4/vpn.html)

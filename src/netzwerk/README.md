@@ -76,6 +76,23 @@ Der Unterrichtsblock "Netzwerksicherheit" beinhaltet die folgenden Themenkomplex
 > **VLAN-Vorteile**, portbasierte versus dynamische **VLANs**, **802.1Q-Tagging**, **native VLAN** am Trunk und warum es nicht das default VLAN (1) sein sollte, **VLAN-Hopping**
 
 
+## WLAN
+
+* [WLAN](https://johannesloetzsch.github.io/LF4/wlan.html): SSID, Broadcast, Enterprise
+
+### RADIUS/EAP
+
+* Siehe [Authentifizierung und Authorisierung](../krypto-auth/README.md#authentifizierung-und-authorisierung): RADIUS (AAA), EAP, IEEE 802.1X
+
+> **📝❗** FiSi AP2 Analyse Sommer 2024 Aufgabe 4 ba–cc
+>
+> WLAN-**Kanalplanung** 2,4 GHz nach Störung durch neue Accesspoints; Begriffe aus dem **WLAN-Scan** (SSID, BSSID, Channel, Security, Signal); **hidden SSID**
+
+> **📝❗** FiSi AP2 Analyse Sommer 2025 Aufgabe 4 aa
+>
+> **SSID-Broadcast**: Funktion und Zweck des öffentlichen Aussendens der SSID
+
+
 ## VPN
 
 * [VPN](https://johannesloetzsch.github.io/LF4/vpn.html)
@@ -88,19 +105,6 @@ Der Unterrichtsblock "Netzwerksicherheit" beinhaltet die folgenden Themenkomplex
 > **📝❗** FiSi AP2 Analyse Sommer 2022 Aufgabe 1 ca–cc
 >
 > **VPN**-Fachbegriff und Erläuterung; Laptop-Konfiguration mit ausschließlich **VPN-Traffic** (Volltunnel); Adresspool: wie viele **VPNs** nach **RFC 3021** (=/31) berechnen
-
-
-## WLAN
-
-* [WLAN](https://johannesloetzsch.github.io/LF4/wlan.html): SSID, Broadcast, Enterprise (siehe auch EAP/RADIUS unter Auth)
-
-> **📝❗** FiSi AP2 Analyse Sommer 2024 Aufgabe 4 ba–cc
->
-> WLAN-**Kanalplanung** 2,4 GHz nach Störung durch neue Accesspoints; Begriffe aus dem **WLAN-Scan** (SSID, BSSID, Channel, Security, Signal); **hidden SSID**
-
-> **📝❗** FiSi AP2 Analyse Sommer 2025 Aufgabe 4 aa
->
-> **SSID-Broadcast**: Funktion und Zweck des öffentlichen Aussendens der SSID
 
 
 ## Zero Trust
@@ -118,7 +122,7 @@ Der Unterrichtsblock "Netzwerksicherheit" beinhaltet die folgenden Themenkomplex
 
 ## Ausblick: Testen
 
-* nmap, tcpdump, Wireshark
+* nmap, tcpdump, **Wireshark**
 * MITM-Proxy
 * OpenVAS, SIEM
 

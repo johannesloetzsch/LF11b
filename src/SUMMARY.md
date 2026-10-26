@@ -13,6 +13,8 @@
   - [Authentifizierung](./krypto-auth/authentifizierung.md)
   - [Autorisierung](./krypto-auth/autorisierung.md)
 - [Netzwerksicherheit](./netzwerk/README.md)
+  - [NAT](./netzwerk/nat.md)
+  - [Firewalls](./netzwerk/firewalls.md)
 - [Praxis](./praxis/README.md)
 
 <!--

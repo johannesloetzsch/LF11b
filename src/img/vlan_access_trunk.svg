@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="510" viewBox="0 0 1240 510" role="img" aria-labelledby="title desc">
+  <title id="title">VLAN: Access-Ports und Trunk-Ports</title>
+  <desc id="desc">Vier VLANs als Farben: Büro, Werkstatt, VoIP und Management. Access-Ports führen jeweils eine Farbe zum Endgerät. Trunks zwischen Switches und zum Router tragen alle vier Farben parallel.</desc>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#333"/>
+    </marker>
+    <marker id="arrowLarge" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#333"/>
+    </marker>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#ffffff"/>
+
+  <path d="M 571 88
+           C 551 88 539 76 543 62
+           C 547 50 561 46 571 50
+           C 575 32 593 24 609 32
+           C 619 16 643 16 653 32
+           C 667 20 689 26 691 44
+           C 707 42 719 54 715 68
+           C 711 82 699 88 685 88
+           Z"
+        fill="#f5f5f5" stroke="#777" stroke-width="2.5"/>
+
+  <line x1="630" y1="88" x2="630" y2="114" stroke="#777" stroke-width="2.5" stroke-dasharray="5 4"/>
+
+  <path d="M 582 130 L 582 160 A 48 16 0 0 0 678 160 L 678 130 Z" fill="#e8eef5" stroke="#333" stroke-width="2.5"/>
+  <ellipse cx="630" cy="130" rx="48" ry="16" fill="#e8eef5" stroke="#333" stroke-width="2.5"/>
+  <line x1="602" y1="130" x2="623" y2="130" stroke="#333" stroke-width="3" marker-end="url(#arrowLarge)"/>
+  <line x1="658" y1="130" x2="637" y2="130" stroke="#333" stroke-width="3" marker-end="url(#arrowLarge)"/>
+  <line x1="630" y1="125" x2="630" y2="114" stroke="#333" stroke-width="3" marker-end="url(#arrowLarge)"/>
+  <line x1="630" y1="135" x2="630" y2="146" stroke="#333" stroke-width="3" marker-end="url(#arrowLarge)"/>
+
+  <line x1="618" y1="176" x2="618" y2="190" stroke="#2e7d32" stroke-width="3"/>
+  <line x1="626" y1="176" x2="626" y2="190" stroke="#1565c0" stroke-width="3"/>
+  <line x1="634" y1="176" x2="634" y2="190" stroke="#ef6c00" stroke-width="3"/>
+  <line x1="642" y1="176" x2="642" y2="190" stroke="#6a1b9a" stroke-width="3"/>
+
+  <line x1="290" y1="260" x2="570" y2="260" stroke="#2e7d32" stroke-width="3"/>
+  <line x1="290" y1="265" x2="570" y2="265" stroke="#1565c0" stroke-width="3"/>
+  <line x1="290" y1="270" x2="570" y2="270" stroke="#ef6c00" stroke-width="3"/>
+  <line x1="290" y1="275" x2="570" y2="275" stroke="#6a1b9a" stroke-width="3"/>
+
+  <line x1="670" y1="260" x2="950" y2="260" stroke="#2e7d32" stroke-width="3"/>
+  <line x1="670" y1="265" x2="950" y2="265" stroke="#1565c0" stroke-width="3"/>
+  <line x1="670" y1="270" x2="950" y2="270" stroke="#ef6c00" stroke-width="3"/>
+  <line x1="670" y1="275" x2="950" y2="275" stroke="#6a1b9a" stroke-width="3"/>
+
+  <polygon points="190,250 210,190 310,190 290,250" fill="#d0dce8" stroke="#333" stroke-width="2"/>
+  <rect x="190" y="250" width="100" height="50" fill="#e8eef5" stroke="#333" stroke-width="2"/>
+  <polygon points="290,250 310,190 310,240 290,300" fill="#b8c9da" stroke="#333" stroke-width="2"/>
+  <line x1="250" y1="200" x2="280" y2="200" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="250" y1="212" x2="220" y2="212" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="250" y1="224" x2="280" y2="224" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="250" y1="236" x2="220" y2="236" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="240" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111">SW1</text>
+
+  <polygon points="570,250 590,190 690,190 670,250" fill="#d0dce8" stroke="#333" stroke-width="2"/>
+  <rect x="570" y="250" width="100" height="50" fill="#e8eef5" stroke="#333" stroke-width="2"/>
+  <polygon points="670,250 690,190 690,240 670,300" fill="#b8c9da" stroke="#333" stroke-width="2"/>
+  <line x1="630" y1="200" x2="660" y2="200" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="630" y1="212" x2="600" y2="212" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="630" y1="224" x2="660" y2="224" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="630" y1="236" x2="600" y2="236" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="620" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111">SW2</text>
+
+  <polygon points="950,250 970,190 1070,190 1050,250" fill="#d0dce8" stroke="#333" stroke-width="2"/>
+  <rect x="950" y="250" width="100" height="50" fill="#e8eef5" stroke="#333" stroke-width="2"/>
+  <polygon points="1050,250 1070,190 1070,240 1050,300" fill="#b8c9da" stroke="#333" stroke-width="2"/>
+  <line x1="1010" y1="200" x2="1040" y2="200" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="1010" y1="212" x2="980" y2="212" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="1010" y1="224" x2="1040" y2="224" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="1010" y1="236" x2="980" y2="236" stroke="#333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="1000" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111">SW3</text>
+
+  <line x1="200" y1="300" x2="150" y2="350" stroke="#2e7d32" stroke-width="3"/>
+  <line x1="240" y1="300" x2="260" y2="350" stroke="#1565c0" stroke-width="3"/>
+  <line x1="280" y1="300" x2="370" y2="350" stroke="#6a1b9a" stroke-width="3"/>
+
+  <line x1="580" y1="300" x2="530" y2="350" stroke="#2e7d32" stroke-width="3"/>
+  <line x1="620" y1="300" x2="640" y2="350" stroke="#ef6c00" stroke-width="3"/>
+  <line x1="660" y1="300" x2="750" y2="350" stroke="#6a1b9a" stroke-width="3"/>
+
+  <line x1="960" y1="300" x2="910" y2="350" stroke="#1565c0" stroke-width="3"/>
+  <line x1="1000" y1="300" x2="1020" y2="350" stroke="#ef6c00" stroke-width="3"/>
+
+  <rect x="100" y="350" width="100" height="54" rx="8" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="150" y="373" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#111">Büro-PC</text>
+  <text x="150" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2e7d32">VLAN 10</text>
+
+  <rect x="210" y="350" width="100" height="54" rx="8" fill="#ffffff" stroke="#1565c0" stroke-width="2"/>
+  <text x="260" y="373" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#111">Werkstatt-PC</text>
+  <text x="260" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1565c0">VLAN 20</text>
+
+  <rect x="320" y="350" width="100" height="54" rx="8" fill="#ffffff" stroke="#6a1b9a" stroke-width="2"/>
+  <text x="370" y="373" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#111">Admin-PC</text>
+  <text x="370" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6a1b9a">VLAN 99</text>
+
+  <rect x="480" y="350" width="100" height="54" rx="8" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="530" y="373" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#111">Drucker</text>
+  <text x="530" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2e7d32">VLAN 10</text>
+
+  <rect x="590" y="350" width="100" height="54" rx="8" fill="#ffffff" stroke="#ef6c00" stroke-width="2"/>
+  <text x="640" y="373" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#111">IP-Telefon 1</text>
+  <text x="640" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ef6c00">VLAN 30</text>
+
+  <rect x="700" y="350" width="100" height="54" rx="8" fill="#ffffff" stroke="#6a1b9a" stroke-width="2"/>
+  <text x="750" y="373" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#111">Monitoring-Server</text>
+  <text x="750" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6a1b9a">VLAN 99</text>
+
+  <rect x="860" y="350" width="100" height="54" rx="8" fill="#ffffff" stroke="#1565c0" stroke-width="2"/>
+  <text x="910" y="373" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#111">Messgerät</text>
+  <text x="910" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1565c0">VLAN 20</text>
+
+  <rect x="970" y="350" width="100" height="54" rx="8" fill="#ffffff" stroke="#ef6c00" stroke-width="2"/>
+  <text x="1020" y="373" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#111">IP-Telefon 2</text>
+  <text x="1020" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ef6c00">VLAN 30</text>
+
+  <rect x="100" y="460" width="14" height="14" fill="#2e7d32"/>
+  <text x="122" y="472" font-family="Arial, sans-serif" font-size="12" fill="#111">Büro</text>
+  <rect x="200" y="460" width="14" height="14" fill="#1565c0"/>
+  <text x="222" y="472" font-family="Arial, sans-serif" font-size="12" fill="#111">Werkstatt/Produktion</text>
+  <rect x="400" y="460" width="14" height="14" fill="#ef6c00"/>
+  <text x="422" y="472" font-family="Arial, sans-serif" font-size="12" fill="#111">VoIP</text>
+  <rect x="500" y="460" width="14" height="14" fill="#6a1b9a"/>
+  <text x="522" y="472" font-family="Arial, sans-serif" font-size="12" fill="#111">Management</text>
+
+  <line x1="650" y1="463" x2="682" y2="463" stroke="#2e7d32" stroke-width="2.5"/>
+  <line x1="650" y1="466" x2="682" y2="466" stroke="#1565c0" stroke-width="2.5"/>
+  <line x1="650" y1="469" x2="682" y2="469" stroke="#ef6c00" stroke-width="2.5"/>
+  <line x1="650" y1="472" x2="682" y2="472" stroke="#6a1b9a" stroke-width="2.5"/>
+  <text x="690" y="472" font-family="Arial, sans-serif" font-size="12" fill="#111">802.1Q Trunk</text>
+
+  <line x1="830" y1="467" x2="862" y2="467" stroke="#777" stroke-width="2.5" stroke-dasharray="5 4"/>
+  <text x="870" y="472" font-family="Arial, sans-serif" font-size="12" fill="#111">WAN/Internet</text>
+</svg>

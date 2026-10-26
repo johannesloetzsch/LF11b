@@ -150,10 +150,15 @@ gantt
 26.10.:
 * Wiederholung Routing
   * NAT
+    * Anwendungsfälle SNAT und DNAT vergleichen
+    * Beispiel SNAT ausfüllen können
 * Firewalls
   * Whitelist-/Blacklist-Strategie
-  * Paketfilter, SPI, Application-Layer → NGFW, WAF
+    * auf Input/Output/Forwarding-Chain anwenden
+  * Typen unterscheiden
+    * Paketfilter, SPI, Application-Layer → WAF, NGFW 
 * DMZ
+  * erklären können
 
 27.10.:
 * VLAN

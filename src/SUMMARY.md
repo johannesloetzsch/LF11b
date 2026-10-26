@@ -15,6 +15,8 @@
 - [Netzwerksicherheit](./netzwerk/README.md)
   - [NAT](./netzwerk/nat.md)
   - [Firewalls](./netzwerk/firewalls.md)
+  - [VLAN](./netzwerk/vlan.md)
+  - [Port-Security](./netzwerk/port-security.md)
 - [Praxis](./praxis/README.md)
 
 <!--

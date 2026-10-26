@@ -80,7 +80,7 @@ Ein **Trunk-Port** transportiert **mehrere VLANs** über eine Verbindung, typisc
 
 ### Subinterfaces
 
-Ein Subinterface ist eine **logische Schnittstelle** auf einer physischen Netzwerkkarte. Es trägt ein **802.1Q-Tag** und besitzt eine eigene IP-Adresse. Über die physische Schnittstelle laufen die getaggten Frames mehrerer VLANs. Bei einer Verbindung über einen Switch muss dessen Port als **Trunk** konfiguriert sein; bei einer direkten Punkt-zu-Punkt-Verbindung zwischen zwei 802.1Q-fähigen Schnittstellen entfällt diese Switch-Konfiguration.
+Ein Subinterface ist eine **logische Schnittstelle** auf einer physischen Netzwerkkarte. Es ist einem **VLAN** zugeordnet und besitzt eine eigene IP-Adresse. Über die physische Schnittstelle laufen die getaggten Frames mehrerer VLANs. Bei einer Verbindung über einen Switch muss dessen Port als **Trunk** konfiguriert sein; bei einer direkten Punkt-zu-Punkt-Verbindung zwischen zwei 802.1Q-fähigen Schnittstellen entfällt diese Switch-Konfiguration.
 
 ```bash
 sudo ip link add link eth0 name eth0.10 type vlan id 10
@@ -134,8 +134,8 @@ Das **Native VLAN** ist die Ausnahme am 802.1Q-Trunk:
 
 Normalerweise bekommt jeder Frame am Trunk ein **VLAN-Tag**. Beim Native VLAN verzichtet der Trunk darauf: Seine Frames werden **ungetaggt** übertragen. Der Empfänger ordnet alle ungetaggten Frames am Trunk automatisch dem Native VLAN zu.
 
-- Das Native VLAN ist **pro Trunk und pro Switch** konfiguriert
-  - Beide Trunk-Enden müssen dasselbe Native VLAN verwenden
+- Das Native VLAN ist **pro Trunk-Port** konfiguriert
+  - An jedem beteiligten Switch muss es am jeweiligen Trunk-Ende gleich konfiguriert sein
 - Standardmäßig ist es bei **Cisco VLAN 1**
 - Es sollte **nicht VLAN 1** sein, sondern ein ungenutztes VLAN
   - Grund: Bei einer Abweichung landen ungetaggte Frames im falschen VLAN; bei Native VLAN = Default VLAN wird **VLAN-Hopping** erleichtert
@@ -152,7 +152,7 @@ Normalerweise bekommt jeder Frame am Trunk ein **VLAN-Tag**. Beim Native VLAN ve
 Zwei typische Varianten:
 
 - **Switch-Spoofing:** Der Angreifer gibt sich als Switch aus *(er handelt über Dynamic Trunking Protocol (DTP) einen **Trunk** aus)*. Danach sieht er Traffic mehrerer VLANs.
-- **Double-Tagging:** Der Angreifer sendet einen Frame mit **zwei 802.1Q-Tags**. Der Switch entfernt am Trunk das äußere Tag – oft das **Native VLAN** – und leitet den Frame mit dem inneren Tag in ein fremdes VLAN weiter.
+- **Double-Tagging:** Der Angreifer sendet einen Frame mit **zwei 802.1Q-Tags**. Der erste Switch entfernt das äußere Tag – oft das **Native VLAN** – und leitet den Frame mit dem inneren Tag über den Trunk weiter; der nächste Switch ordnet ihn dem inneren VLAN zu.
 
 Schutzmaßnahmen:
 

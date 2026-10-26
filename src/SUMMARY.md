@@ -17,6 +17,7 @@
   - [Firewalls](./netzwerk/firewalls.md)
   - [VLAN](./netzwerk/vlan.md)
   - [Port-Security](./netzwerk/port-security.md)
+  - [WLAN](./netzwerk/wlan.md)
 - [Praxis](./praxis/README.md)
 
 <!--

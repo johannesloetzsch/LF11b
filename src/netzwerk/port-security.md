@@ -12,7 +12,7 @@ Ein **unbefugtes Gerät** wird an einen Switch-Port angeschlossen, z. B. ein fre
 
 Der Angreifer sendet viele Frames mit ständig neuen, **gefälschten Quell-MAC-Adressen**. Dadurch füllt sich die MAC-/CAM-Tabelle des Switches. Der Switch kann legitime Adressen nicht mehr zuordnen und flutet unbekannte Unicast-Frames an alle Ports – der Angreifer kann so Traffic mitlesen.
 
-**Port-Security hilft:** Sie begrenzt die Zahl der MAC-Adressen pro Port und schaltet den Port bei Überschreitung ab.
+**Port-Security hilft:** Sie begrenzt die Zahl der MAC-Adressen pro Port und kann den Port bei Überschreitung abschalten – abhängig vom Violation Mode.
 
 ### MAC-Spoofing
 

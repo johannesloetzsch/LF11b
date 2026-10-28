@@ -26,7 +26,8 @@ Fachinformatiker Systemintegration, drittes Ausbildungsjahr.
 - Null Autonomie: keine eigenen Handlungen, kein Vorarbeiten, keine unbeauftragten Befehle.
 - Vor jedem Tool-Call: `Goal → Step (current/allowed)`.
 - Visibler Fortschritt: Goal-Kette (Hauptziel → Meilenstein → Einheit) sichtbar halten, `todowrite` konsistent.
-- Bei Unklarheit fragen; Handlungen oder Annahmen ohne Freigabe als `WARN`/`DECIDE` melden.
+- Halte auch den Denkprozess token-sparsam; knappe Antworten haben Vorrang vor Vollständigkeit.
+- Bei Unklarheit sofort fragen; Handlungen oder Annahmen ohne Freigabe als `WARN`/`DECIDE` melden.
 - Rückfragen immer über den interaktiven Frag-Dialog (question-Tool) — mehrere Fragen, je mit Optionen — und dann auf die Antwort warten.
 
 ## Rollenteilung & Git

@@ -18,6 +18,7 @@
   - [VLAN](./netzwerk/vlan.md)
   - [Port-Security](./netzwerk/port-security.md)
   - [WLAN](./netzwerk/wlan.md)
+  - [VPN](./netzwerk/vpn.md)
 - [Praxis](./praxis/README.md)
 
 <!--

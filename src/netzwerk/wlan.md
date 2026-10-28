@@ -5,12 +5,19 @@
 - **Wireless Local Area Network (WLAN)** auf Basis von **IEEE 802.11**
 - **Service Set Identifier (SSID)** = Netzname
   - **SSID-Broadcast** dient der Auffindbarkeit
-  - **Hidden SSID** -> SSID wird nicht im Beacon ausgesendet; Clients müssen sie manuell eintragen, kein Sicherheitsgewinn
+  - **Hidden SSID** -> SSID wird nicht im Beacon ausgesendet; **kein Sicherheitsgewinn** (*Security by Obscurity*), weil Clients sie beim Verbinden verraten und sie per Monitor-Mode sichtbar bleibt
 - **Access Point (AP)**
   - **Basic Service Set (BSS)** = eine Funkzelle
   - **Basic Service Set Identifier (BSSID)** = MAC-Adresse des AP
 - **Extended Service Set (ESS)** = mehrere APs mit gleicher SSID und Roaming
 - **WLAN-Scan** zeigt SSID, BSSID, Kanal, Bandbreite, Sicherheitsverfahren und Signalstärke
+
+> **💻** WLAN-Scan mit `nmcli`
+
+```bash
+nmcli -f IN-USE,SSID,BSSID,CHAN,FREQ,SIGNAL,SECURITY device wifi list --rescan no
+```
+
 - **Power over Ethernet (PoE)**
 
 Frequenzen:
@@ -42,7 +49,7 @@ Frequenzen:
 - **Wi-Fi Protected Access (WPA)** ist die Sicherheitsfamilie
   - **WPA2 Personal** nutzt einen gemeinsamen **Pre-Shared Key (PSK)**, bietet keine individuellen Konten und keinen zentralen Widerruf
   - **WPA2 Enterprise** nutzt **IEEE 802.1X** und **RADIUS** mit individuellen Zugangsdaten
-  - **WPA3** nutzt **Simultaneous Authentication of Equals (SAE)** und schützt besser gegen Offline-Angriffe
+  - **WPA3** nutzt **Simultaneous Authentication of Equals (SAE)** und schützt besser gegen **Offline-/Wörterbuchangriffe**; **Forward Secrecy** ist designbedingt
 
 > **📝❗** FiSi AP2 Analyse Sommer 2025 Aufgabe 4 ab
 >

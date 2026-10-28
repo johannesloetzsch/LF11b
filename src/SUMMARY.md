@@ -19,6 +19,7 @@
   - [Port-Security](./netzwerk/port-security.md)
   - [WLAN](./netzwerk/wlan.md)
   - [VPN](./netzwerk/vpn.md)
+  - [Zero Trust](./netzwerk/zero-trust.md)
 - [Praxis](./praxis/README.md)
 
 <!--

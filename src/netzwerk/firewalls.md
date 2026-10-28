@@ -52,6 +52,17 @@ iptables -P FORWARD DROP
 
   Integrierter Typ: enthält Paketfilter, SPI, Deep-Paket-Inspection (**DPI**) und oft Intrusion-Detection/Intrusion-Prevention-System (**IDS/IPS**), Antivirus (**AV**), **TLS-Inspection** oder App-Erkennung. Je nach Produkt auch AppState- und Content-Awareness.
 
+| Szenario | Paketfilter | Stateful Inspection | WAF | NGFW |
+|---|---|---|---|---|
+| RDP-Brute-Force aus dem Internet | X |  |  |  |
+| Datenabfluss zu einer bekannten C2-IP | X |  |  |  |
+| Gefälschte ACK-Pakete ohne bestehende Verbindung |  | X |  |  |
+| Spoofing von Antwortpaketen auf eine ausgehende Verbindung |  | X |  |  |
+| SQL-Injection über ein Login-Formular |  |  | X |  |
+| XSS-Angriff über ein Kommentarfeld |  |  | X |  |
+| Verschlüsselte C2-Kommunikation über HTTPS |  |  |  | X |
+| Malware-Download über eine erlaubte HTTP-Verbindung |  |  |  | X |
+
 > **❓❗** Welche Vor- und Nachteile können sich durch den Einsatz einer NGFW ergeben?
 
 
